@@ -12,6 +12,7 @@ function Navbar() {
             <div className="nav-container">
                 <nav className='navbar'>
                     <div className='navLogoDiv'>
+                        <img id='websiteLogo' src='./Images/rSquaredLogoFinal.png' />
                         <a id='logoText' className='gradient-text' href='/'>Overview</a>
                         <a id='logoText' className='gradient-text' href='/'>About Me</a>
                         <a id='logoText' className='gradient-text' href='/'>Experience</a>

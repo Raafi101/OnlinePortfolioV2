@@ -1,0 +1,43 @@
+#header {
+  display: block;
+  position: absolute;
+  top: 150px;
+  text-align: center;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#name {
+  color: transparent;
+  background-image: linear-gradient(90deg, rgb(195, 7, 63), #fc466b);
+  background-clip: text;
+  font-size: 8vh;
+  padding-bottom: 30px;
+}
+
+#title {
+  color: white;
+  font-size: 4vh;
+  padding-bottom: 30px;
+}
+
+#quote {
+  color: white;
+  font-size: 4vh;
+  padding-bottom: 30px;
+}
+
+#author {
+  color: transparent;
+  background-image: linear-gradient(90deg, rgb(195, 7, 63), #fc466b);
+  background-clip: text;
+  font-size: 4vh;
+  padding-bottom: 30px;
+  float: right;
+  margin-right: 12%;
+}
+
+body {
+  background-color: white;
+}

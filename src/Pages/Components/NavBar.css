@@ -1,6 +1,5 @@
 nav {
   background: #000000;
-  align-items: center;
 }
 
 .nav-container {
@@ -8,17 +7,15 @@ nav {
   border-color: transparent;
   background: linear-gradient(90deg, #fc466b, rgb(195, 7, 63), #fc466b);
   background-clip: border;
-}
-
-.navbar {
-  text-align: center;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
 }
 
 .navLogoDiv {
-  justify-content: center;
-  text-align: center;
+  margin: auto;
   display: inline-flex;
-  margin-top: 15px;
+  margin-top: 10px;
   height: 48px;
 }
 
@@ -28,12 +25,6 @@ nav {
   margin-right: 15px;
 }
 
-#logoText {
-  margin-right: 15px;
-  margin-left: 15px;
-  margin-top: 13px;
-}
-
 .gradient-text {
   margin-top: 5px;
   font-family: Trebuchet MS, Arial, Helvetica;
@@ -41,32 +32,67 @@ nav {
   background-clip: text;
   text-decoration: none;
   font-size: 20px;
+  position: relative;
+}
+
+.gradient-text:before {
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  content: "";
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 10px;
+}
+
+.gradient-text:hover:before {
+  visibility: visible;
+  width: 100%;
 }
 
 .gradient-text:hover {
   margin-top: 5px;
   font-family: Trebuchet MS, Arial, Helvetica;
-  color: transparent;
-  background-image: linear-gradient(90deg, rgb(195, 7, 63), #fc466b);
-  background-clip: text;
+  color: white;
   text-decoration: none;
-  transition: 0.3s;
-  font-size: 20px;
 }
 
-@media screen and (min-width: 400px) {
-  #backAni {
-    cursor: pointer;
-    color: white;
-    background-color: transparent;
-    border: none;
-    font-size: 20px;
-    margin-left: 0px;
+button {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 750px) {
+  #logoText {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  #burgerBTN {
+    display: none;
   }
 }
 
-@media screen and (max-width: 400px) {
-  #backAni {
+@media screen and (max-width: 750px) {
+  #logoText {
     display: none;
+  }
+
+  #websiteLogo {
+    margin: auto;
+  }
+
+  #burgerBTN {
+    position: fixed;
+    color: white;
+    background-color: transparent;
+    border: 0px;
+    outline: none;
+  }
+
+  #burgerIcon {
+    font-size: 30px;
   }
 }

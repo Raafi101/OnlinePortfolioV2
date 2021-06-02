@@ -1,0 +1,69 @@
+#wholeQualDiv {
+  background-color: rgb(26, 26, 29);
+  border-top: 5px solid;
+  border-color: rgb(195, 7, 63);
+  padding-bottom: 40px;
+}
+
+#qualificationSummary {
+  width: 100%;
+  display: inline-block;
+}
+
+#qualificationTitle {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  font-size: 4vh;
+  z-index: -2;
+  color: white;
+}
+
+#qualificationText {
+  width: 100%;
+  font-size: 2.5vh;
+  color: white;
+}
+
+@media screen and (min-width: 750px) {
+  #QualificationDiv {
+    width: 60%;
+    margin: auto;
+  }
+
+  #qualificationText {
+    width: 100%;
+    font-size: 2.5vh;
+  }
+
+  #qualificationPic {
+    width: 40%;
+    margin-top: 7px;
+    margin-right: 50px;
+    padding-bottom: 10px;
+    float: right;
+    height: 25vh;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #QualificationDiv {
+    width: 80%;
+    margin: auto;
+  }
+
+  #qualificationPic {
+    width: 15rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+
+  #qualificationText {
+    margin: auto;
+    width: 100%;
+    font-size: 2.5vh;
+    text-align: center;
+  }
+}

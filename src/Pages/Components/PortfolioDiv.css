@@ -1,28 +1,28 @@
-#wholeQualDiv {
-  background-color: rgb(26, 26, 29);
+#wholePortfolioDiv {
+  background-color: white;
   border-top: 5px solid;
   border-color: rgb(195, 7, 63);
   padding-bottom: 40px;
 }
 
-#qualificationSummary {
+#PortfolioSummary {
   width: 100%;
   display: inline-block;
 }
 
-#qualificationTitle {
+#PortfolioTitle {
   text-align: center;
   margin-top: 40px;
   margin-bottom: 30px;
   font-size: 4vh;
   z-index: -2;
-  color: white;
+  color: black;
 }
 
-#qualificationText {
+#PortfolioText {
   width: 100%;
   font-size: 2.5vh;
-  color: white;
+  color: black;
 }
 
 .button span {
@@ -50,19 +50,46 @@
   right: 0;
 }
 
+#carousel {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.gallery {
+  background: #eee;
+}
+
+.gallery-cell {
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8c8;
+  counter-increment: gallery-cell;
+}
+
+/* cell number */
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
 @media screen and (min-width: 750px) {
-  #QualificationDiv {
+  #PortfolioDiv {
     width: 60%;
     margin: auto;
     padding-bottom: 30px;
   }
 
-  #qualificationText {
+  #PortfolioText {
     width: 100%;
     font-size: 2.5vh;
   }
 
-  #qualBTNs {
+  #PortfolioBTNs {
     display: inline-block;
     width: 100%;
     text-align: center;
@@ -85,20 +112,20 @@
 }
 
 @media screen and (max-width: 750px) {
-  #QualificationDiv {
+  #PortfolioDiv {
     width: 80%;
     margin: auto;
     padding-bottom: 30px;
   }
 
-  #qualificationText {
+  #PortfolioText {
     margin: auto;
     width: 100%;
     font-size: 2.5vh;
     text-align: center;
   }
 
-  #qualBTNs {
+  #PortfolioBTNs {
     display: block;
     width: 50%;
     align-items: center;

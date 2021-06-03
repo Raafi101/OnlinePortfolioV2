@@ -5,6 +5,7 @@ import DropDown from './Components/DropDown.js';
 import HomeHeader from './Components/HomeHeader';
 import AboutDiv from './Components/AboutDiv';
 import QualificationDiv from './Components/QualificationDiv';
+import PortfolioDiv from './Components/PortfolioDiv';
 
 function Overview() {
   return (
@@ -15,6 +16,7 @@ function Overview() {
       <HomeHeader />
       <AboutDiv />
       <QualificationDiv />
+      <PortfolioDiv />
 
     </div>
   );

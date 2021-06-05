@@ -6,6 +6,7 @@ import HomeHeader from './Components/HomeHeader';
 import AboutDiv from './Components/AboutDiv';
 import QualificationDiv from './Components/QualificationDiv';
 import PortfolioDiv from './Components/PortfolioDiv';
+import Footer from './Components/Footer';
 
 function Overview() {
   return (
@@ -17,6 +18,7 @@ function Overview() {
       <AboutDiv />
       <QualificationDiv />
       <PortfolioDiv />
+      <Footer />
 
     </div>
   );

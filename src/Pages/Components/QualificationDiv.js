@@ -25,10 +25,10 @@ function QualificationDiv() {
                     </h2>
                     <div id='qualBTNs'>
                         <button class="button" data-aos='fade-left'><span>Read More </span></button>
-                        <button class="button" data-aos='fade-left'><span>Resume </span></button>
-                        <button class="button" data-aos='fade-left'><span>Transcript </span></button>
-                        <button class="button" data-aos='fade-left'><span>GitHub </span></button>
-                        <button class="button" data-aos='fade-left'><span>LinkedIn </span></button>
+                        <button class="button" data-aos='fade-left' data-aos-delay='50'><span>Resume </span></button>
+                        <button class="button" data-aos='fade-left' data-aos-delay='100'><span>Transcript </span></button>
+                        <button class="button" data-aos='fade-left' data-aos-delay='150'><span>GitHub </span></button>
+                        <button class="button" data-aos='fade-left' data-aos-delay='200'><span>LinkedIn </span></button>
                     </div>
                 </div>
             </div>

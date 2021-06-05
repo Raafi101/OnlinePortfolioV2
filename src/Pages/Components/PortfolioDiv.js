@@ -24,9 +24,36 @@ function PortfolioDiv() {
                         search up planets stored in a PostgreSQL database and visualize them 
                         on the screen.
                     </h2>
-                    <div id='carousel'>
-                        
+                    <div class="gallery-image">
+                        <div class="img-box" data-aos='fade-left'>
+                            <img src="https://picsum.photos/350/250?image=444" alt="" />
+                            <div class="transparent-box">
+                                <div class="caption">
+                                <p>Library</p>
+                                <p class="opacity-low">Architect Design</p>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="img-box" data-aos='fade-left' data-aos-delay='100'>
+                            <img src="https://picsum.photos/350/250/?image=232" alt="" />
+                            <div class="transparent-box">
+                                <div class="caption">
+                                <p>Night Sky</p>
+                                <p class="opacity-low">Cinematic</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="img-box" data-aos='fade-left' data-aos-delay='200'>
+                            <img src="https://picsum.photos/350/250/?image=431" alt="" />
+                            <div class="transparent-box">
+                                <div class="caption">
+                                <p>Tea Talk</p>
+                                <p class="opacity-low">Composite</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    <button id='portBTN' class="button" data-aos='fade-right'><span>See More</span></button>
                 </div>
             </div>
         </div>

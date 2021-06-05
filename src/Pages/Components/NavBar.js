@@ -32,10 +32,9 @@ function Navbar() {
                     <div className='navLogoDiv'>
                         <img id='websiteLogo' src='./Images/rSquaredLogoFinal.png' />
                         <a id='logoText' className='gradient-text' href='/'>Overview</a>
-                        <a id='logoText' className='gradient-text' href='/'>About Me</a>
-                        <a id='logoText' className='gradient-text' href='/'>Experience</a>
-                        <a id='logoText' className='gradient-text' href='/'>Portfolio</a>
-                        <a id='logoText' className='gradient-text' href='/'>Contact Me</a>
+                        <a id='logoText' className='gradient-text' href='/qualifications'>Qualifications</a>
+                        <a id='logoText' className='gradient-text' href='/portfolio'>Portfolio</a>
+                        <a id='logoText' className='gradient-text' href='/contact'>Contact Me</a>
                     </div>
                     <button onClick={burgerSwitch} id='burgerBTN'><i id='burgerIcon' class="icofont-navigation-menu" /></button>
                 </nav>

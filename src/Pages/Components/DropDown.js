@@ -7,10 +7,9 @@ function DropDown() {
         <Fragment id='dropBackground'>
             <div id='dropMenu'>
                 <a id='dropText' className='gradient-text1' href='/'>Overview</a>
-                <a id='dropText' className='gradient-text1' href='/'>About Me</a>
-                <a id='dropText' className='gradient-text1' href='/'>Experience</a>
-                <a id='dropText' className='gradient-text1' href='/'>Portfolio</a>
-                <a id='dropText' className='gradient-text1' href='/'>Contact Me</a>
+                <a id='dropText' className='gradient-text1' href='/qualifications'>Qualifications</a>
+                <a id='dropText' className='gradient-text1' href='/portfolio'>Portfolio</a>
+                <a id='dropText' className='gradient-text1' href='/contact'>Contact Me</a>
             </div>
         </Fragment>
     )

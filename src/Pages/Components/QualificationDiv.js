@@ -24,11 +24,11 @@ function QualificationDiv() {
                         experience. Artistic when it comes to music, design, and film making.
                     </h2>
                     <div id='qualBTNs'>
-                        <button class="button" data-aos='fade-left'><span>Read More </span></button>
+                        <a href='/qualifications'><button class="button" data-aos='fade-left'><span>Read More </span></button></a>
                         <button class="button" data-aos='fade-left' data-aos-delay='50'><span>Resume </span></button>
                         <button class="button" data-aos='fade-left' data-aos-delay='100'><span>Transcript </span></button>
-                        <button class="button" data-aos='fade-left' data-aos-delay='150'><span>GitHub </span></button>
-                        <button class="button" data-aos='fade-left' data-aos-delay='200'><span>LinkedIn </span></button>
+                        <a href='https://github.com/Raafi101' target='_blank'><button class="button" data-aos='fade-left' data-aos-delay='150'><span><i class="fab fa-github"></i> GitHub </span></button></a>
+                        <a href='https://www.linkedin.com/in/raafi101/' target='_blank'><button class="button" data-aos='fade-left' data-aos-delay='200'><span><i class="fab fa-linkedin"></i> LinkedIn </span></button></a>
                     </div>
                 </div>
             </div>

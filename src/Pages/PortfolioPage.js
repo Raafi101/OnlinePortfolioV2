@@ -3,6 +3,7 @@ import './PortfolioPage.css';
 import Navbar from './Components/NavBar.js';
 import DropDown from './Components/DropDown.js';
 import Footer from './Components/Footer.js';
+import PortHeader from './Components/PortHeader';
 
 function Portfolio() {
   return (
@@ -10,6 +11,7 @@ function Portfolio() {
 
       <Navbar />
       <DropDown />
+      <PortHeader />
       <Footer />
 
     </div>

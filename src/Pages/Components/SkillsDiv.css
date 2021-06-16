@@ -1,0 +1,208 @@
+#wholeSkillsDiv {
+  background-color: rgb(26, 26, 29);
+  border-top: 5px solid;
+  border-color: rgb(195, 7, 63);
+  padding-bottom: 40px;
+}
+
+#SkillsSummary {
+  width: 100%;
+  display: inline-block;
+}
+
+#SkillsTitle {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  font-size: 4vh;
+  z-index: -2;
+  color: white;
+}
+
+#SkillsText {
+  width: 100%;
+  font-size: 2.5vh;
+  color: white;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#lang {
+  color: white;
+}
+
+#Y {
+  color: rgb(195, 7, 63);
+}
+
+#N {
+  color: white;
+}
+
+#techList {
+  display: inline-block;
+}
+
+#TechText {
+  color: white;
+  margin-right: 15px;
+  float: left;
+  font-size: 2.5vh;
+}
+
+#miscList {
+  display: inline-block;
+}
+
+#MiscText {
+  color: white;
+  margin-right: 15px;
+  float: left;
+  font-size: 2.5vh;
+  width: 100%;
+  text-align: center;
+}
+
+@media screen and (min-width: 766.5px) {
+  #SkillsDiv {
+    width: 60%;
+    margin: auto;
+    padding-bottom: 30px;
+  }
+
+  #SkillsText {
+    width: 100%;
+    font-size: 2.5vh;
+  }
+
+  #SkillsSub {
+    margin: auto;
+    width: 100%;
+    font-size: 4vh;
+    text-align: center;
+    color: rgb(195, 7, 63);
+    margin-bottom: 20px;
+    margin-top: 25px;
+  }
+
+  #qualBTNs {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .button {
+    border-radius: 5px;
+    background: linear-gradient(90deg, rgb(195, 7, 63), #ff2a55);
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 2.5vh;
+    padding: 20px;
+    width: 20vh;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  #langName {
+    display: inline-flex;
+  }
+
+  #Rating {
+    display: inline-flex;
+    float: right;
+  }
+}
+
+@media screen and (max-width: 766.5px) {
+  #SkillsDiv {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 30px;
+  }
+
+  #SkillsText {
+    margin: auto;
+    width: 100%;
+    font-size: 2.5vh;
+    text-align: center;
+  }
+
+  #SkillsSub {
+    margin: auto;
+    width: 100%;
+    font-size: 5vh;
+    text-align: center;
+    color: rgb(195, 7, 63);
+  }
+
+  #qualBTNs {
+    display: block;
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .button {
+    border-radius: 5px;
+    background: linear-gradient(90deg, rgb(195, 7, 63), #ff2a55);
+    border: none;
+    color: #ffffff;
+    font-size: 2.5vh;
+    padding: 20px;
+    width: 20vh;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #langName {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  #Rating {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  #techList {
+    display: inline-block;
+  }
+
+  #TechText {
+    width: 100%;
+    text-align: center;
+  }
+}

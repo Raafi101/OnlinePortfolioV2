@@ -6,6 +6,7 @@ import Footer from './Components/Footer.js';
 import Timeline from './Components/Timeline.js';
 import QualHeader from './Components/QualHeader.js';
 import SkillsDiv from './Components/SkillsDiv.js';
+import AddInfoDiv from './Components/AddInfoDiv';
 
 function Qualifications() {
   return (
@@ -16,6 +17,7 @@ function Qualifications() {
       <QualHeader />
       <Timeline />
       <SkillsDiv />
+      <AddInfoDiv />
       <Footer />
 
     </div>

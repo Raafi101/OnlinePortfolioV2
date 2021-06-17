@@ -1,0 +1,208 @@
+#wholeAddInfoDiv {
+  background-color: white;
+  border-top: 5px solid;
+  border-color: rgb(195, 7, 63);
+  padding-bottom: 40px;
+}
+
+#AddInfoSummary {
+  width: 100%;
+  display: inline-block;
+}
+
+#AddInfoTitle {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  font-size: 4vh;
+  z-index: -2;
+  color: rgb(26, 26, 29);
+}
+
+#AddInfoText {
+  width: 100%;
+  font-size: 2.5vh;
+  color: rgb(26, 26, 29);
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#lang {
+  color: white;
+}
+
+#Y {
+  color: rgb(195, 7, 63);
+}
+
+#No {
+  color: rgb(26, 26, 29);
+}
+
+#InterestList {
+  display: inline-block;
+}
+
+#InterestText {
+  color: rgb(26, 26, 29);
+  margin-right: 15px;
+  float: left;
+  font-size: 2.5vh;
+}
+
+#miscList {
+  display: inline-block;
+}
+
+#MiscText1 {
+  color: rgb(26, 26, 29);
+  margin-right: 15px;
+  float: left;
+  font-size: 2.5vh;
+  width: 100%;
+  text-align: center;
+}
+
+@media screen and (min-width: 766.5px) {
+  #AddInfoDiv {
+    width: 60%;
+    margin: auto;
+    padding-bottom: 30px;
+  }
+
+  #AddInfoText {
+    width: 100%;
+    font-size: 2.5vh;
+  }
+
+  #AddInfoSub {
+    margin: auto;
+    width: 100%;
+    font-size: 4vh;
+    text-align: center;
+    color: rgb(195, 7, 63);
+    margin-bottom: 20px;
+    margin-top: 25px;
+  }
+
+  #qualBTNs {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .button {
+    border-radius: 5px;
+    background: linear-gradient(90deg, rgb(195, 7, 63), #ff2a55);
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 2.5vh;
+    padding: 20px;
+    width: 20vh;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  #langName {
+    display: inline-flex;
+  }
+
+  #Rating {
+    display: inline-flex;
+    float: right;
+  }
+}
+
+@media screen and (max-width: 766.5px) {
+  #AddInfoDiv {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 30px;
+  }
+
+  #AddInfoText {
+    margin: auto;
+    width: 100%;
+    font-size: 2.5vh;
+    text-align: center;
+  }
+
+  #AddInfoSub {
+    margin: auto;
+    width: 100%;
+    font-size: 5vh;
+    text-align: center;
+    color: rgb(195, 7, 63);
+  }
+
+  #qualBTNs {
+    display: block;
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .button {
+    border-radius: 5px;
+    background: linear-gradient(90deg, rgb(195, 7, 63), #ff2a55);
+    border: none;
+    color: #ffffff;
+    font-size: 2.5vh;
+    padding: 20px;
+    width: 20vh;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #langName {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  #Rating {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  #techList {
+    display: inline-block;
+  }
+
+  #TechText {
+    width: 100%;
+    text-align: center;
+  }
+}

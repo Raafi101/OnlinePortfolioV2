@@ -16,13 +16,13 @@
   margin-bottom: 30px;
   font-size: 4vh;
   z-index: -2;
-  color: black;
+  color: rgb(26, 26, 29);
 }
 
 #PortfolioText {
   width: 100%;
   font-size: 2.5vh;
-  color: black;
+  color: rgb(26, 26, 29);
 }
 
 @media screen and (min-width: 750px) {
@@ -35,6 +35,7 @@
   #PortfolioText {
     width: 100%;
     font-size: 2.5vh;
+    color: rgb(26, 26, 29);
   }
 
   #PortfolioBTNs {
@@ -89,6 +90,7 @@
     width: 100%;
     font-size: 2.5vh;
     text-align: center;
+    color: rgb(26, 26, 29);
   }
 
   #PortfolioBTNs {

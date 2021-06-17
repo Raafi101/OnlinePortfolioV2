@@ -76,6 +76,53 @@ function SkillsDiv() {
                         </div>
                     </div>
 
+                    <h1 id='SkillsSub' data-aos='fade-down'>Spoken Languages</h1>
+
+                    <div id='bloc'>
+                        <div id='langName' data-aos='fade-right'>
+                            <h2 id='SkillsText'>English</h2>
+                        </div>
+                        <div id='Rating' data-aos='fade-left'>
+                            <h4>
+                                <i id='Y' class="fas fa-square"></i> <n/>
+                                <i id='Y' class="fas fa-square"></i> <n/>
+                                <i id='Y' class="fas fa-square"></i> <n/>
+                                <i id='Y' class="fas fa-square"></i> <n/>
+                                <i id='Y' class="fas fa-square"></i> <n/>
+                            </h4>
+                        </div>
+                    </div>
+
+                    <div id='bloc'>
+                        <div id='langName' data-aos='fade-right'>
+                            <h2 id='SkillsText'>Urdu/Hindi</h2>
+                        </div>
+                        <div id='Rating' data-aos='fade-left'>
+                            <h4>
+                                <i id='Y' class="fas fa-square"></i> <n/>
+                                <i id='Y' class="fas fa-square"></i> <n/>
+                                <i id='Y' class="fas fa-square"></i> <n/>
+                                <i id='Y' class="fas fa-square"></i> <n/>
+                                <i id='N' class="fas fa-square"></i>
+                            </h4>
+                        </div>
+                    </div>
+                    
+                    <div id='bloc'>
+                        <div id='langName' data-aos='fade-right'>
+                            <h2 id='SkillsText'>Russian</h2>
+                        </div>
+                        <div id='Rating' data-aos='fade-left'>
+                            <h4>
+                                <i id='Y' class="fas fa-square"></i> <n/>
+                                <i id='Y' class="fas fa-square"></i> <n/>
+                                <i id='N' class="fas fa-square"></i> <n/>
+                                <i id='N' class="fas fa-square"></i> <n/>
+                                <i id='N' class="fas fa-square"></i>
+                            </h4>
+                        </div>
+                    </div>
+
                     <h1 id='SkillsSub' data-aos='fade-down'>Technologies</h1>
 
                     <div id='bloc'>
@@ -102,7 +149,7 @@ function SkillsDiv() {
                     </div>
 
                     <div id='bloc'>
-                        <h1 id='SkillsSub'>Other Skills</h1>
+                        <h1 id='SkillsSub' data-aos='fade-down'>Other Skills</h1>
                         <div id='miscList'>
                             <h2 id='MiscText' data-aos='fade-right'>AutoCAD Certified with training in Revit and Fusion360.</h2>
                             <h2 id='MiscText' data-aos='fade-right'>Experienced computer builder.</h2>

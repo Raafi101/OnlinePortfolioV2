@@ -21,6 +21,7 @@ body {
   margin-bottom: 30px;
   font-size: 4vh;
   z-index: -2;
+  color: rgb(26, 26, 29);
 }
 
 @media screen and (min-width: 750px) {
@@ -32,6 +33,7 @@ body {
   #aboutText {
     width: 100%;
     font-size: 2.5vh;
+    color: rgb(26, 26, 29);
   }
 
   #aboutPic {
@@ -62,5 +64,6 @@ body {
     width: 100%;
     font-size: 2.5vh;
     text-align: center;
+    color: rgb(26, 26, 29);
   }
 }

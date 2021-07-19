@@ -13,7 +13,7 @@ function Footer() {
 
             <div id='FooterDiv'>
 
-                <div id='footerTitleDiv' data-aos='fade-down'>
+                <div id='footerTitleDiv'>
                     <img id='footerLogo' src='./Images/rSquaredLogoFinal.png' />
                     <h1 id='FooterTitle'>Raafi Rahman</h1>
                 </div>
@@ -21,31 +21,31 @@ function Footer() {
                 <div id='footerBody'>
 
                     <div id='inlineFooter'>
-                        <h2 id='FooterText' data-aos='fade-right'>
+                        <h2 id='FooterText'>
                             <i class="fas fa-envelope"></i> : rahmanraafi00@gmail.com
                         </h2>
-                        <a id='footerLink' data-aos='fade-left' className='gradient-text1' href='/'>Overview</a>
+                        <a id='footerLink' className='gradient-text1' href='/'>Overview</a>
                     </div>
 
                     <div id='inlineFooter'>
-                        <h2 id='FooterText' data-aos='fade-right' data-aos-delay='50'>
+                        <h2 id='FooterText'>
                         <i class="fas fa-phone-alt"></i> : 1 (646) 334-1690
                         </h2>
-                        <a id='footerLink' data-aos='fade-left' data-aos-delay='50' className='gradient-text1' href='/qualifications'>Qualifications</a>
+                        <a id='footerLink' className='gradient-text1' href='/qualifications'>Qualifications</a>
                     </div>
 
                     <div id='inlineFooter'>
-                        <h2 id='FooterText' data-aos='fade-right' data-aos-delay='100'>
+                        <h2 id='FooterText'>
                             <i class="fab fa-github"></i> : <a id='footerExLink' href='https://github.com/Raafi101' target='_blank'>github.com/Raafi101</a>
                         </h2>
-                        <a id='footerLink' data-aos='fade-left' data-aos-delay='100' className='gradient-text1' href='/portfolio'>Portfolio</a>
+                        <a id='footerLink' className='gradient-text1' href='/portfolio'>Portfolio</a>
                     </div>
 
                     <div id='inlineFooter'>
-                        <h2 id='FooterText' data-aos='fade-right' data-aos-delay='150'>
+                        <h2 id='FooterText'>
                             <i class="fab fa-linkedin"></i> : <a id='footerExLink' href='https://www.linkedin.com/in/raafi101/' target='_blank'>www.linkedin.com/in/raafi101</a>
                         </h2>
-                        <a id='footerLink' data-aos='fade-left' data-aos-delay='150' className='gradient-text1' href='/contact'>Contact Me</a>
+                        <a id='footerLink' className='gradient-text1' href='/contact'>Contact Me</a>
                     </div>
 
                 </div>

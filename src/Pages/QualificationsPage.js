@@ -4,7 +4,7 @@ import Navbar from './Components/NavBar.js';
 import DropDown from './Components/DropDown.js';
 import Footer from './Components/Footer.js';
 import Timeline from './Components/Timeline.js';
-import QualHeader from './Components/QualHeader.js';
+import QualHeader from './Components/Headers/QualHeader.js';
 import SkillsDiv from './Components/SkillsDiv.js';
 import AddInfoDiv from './Components/AddInfoDiv';
 

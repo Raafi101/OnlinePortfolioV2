@@ -1,23 +1,25 @@
 import React from 'react';
-import './PortfolioPage.css';
+import './PhotoshopPage.css';
+
 import Navbar from './Components/NavBar.js';
 import DropDown from './Components/DropDown.js';
 import Footer from './Components/Footer.js';
-import PortHeader from './Components/Headers/PortHeader.js';
-import PortfolioBTNS from './Components/PortfolioBTNS.js';
+import PhotoshopHeader from './Components/Headers/PhotoshopHeader.js';
 
-function Portfolio() {
+import SACCFlyers from './Components/ProjectDivs/Photoshop/SACCFlyers.js';
+
+function Photoshop() {
   return (
     <div id='masterDiv'>
 
       <Navbar />
       <DropDown />
-      <PortHeader />
-      <PortfolioBTNS />
+      <PhotoshopHeader />
+      <SACCFlyers />
       <Footer />
 
     </div>
   );
 }
 
-export default Portfolio;
+export default Photoshop;

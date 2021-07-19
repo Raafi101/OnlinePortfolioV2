@@ -46,11 +46,17 @@
   }
 }
 /* Main styles */
-#wholePortHead {
-  background: linear-gradient(180deg, rgb(195, 7, 63), #fc466b, #ffffff);
+#wholeCodeHead {
+  background: linear-gradient(
+    180deg,
+    rgb(195, 7, 63),
+    rgb(195, 7, 63),
+    #fc466b,
+    #ffffff
+  );
   padding-top: 80px;
   width: 100%;
-  height: 53rem;
+  height: 37rem;
   z-index: -1;
 }
 

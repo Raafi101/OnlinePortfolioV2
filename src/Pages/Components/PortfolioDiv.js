@@ -25,35 +25,40 @@ function PortfolioDiv() {
                         on the screen.
                     </h2>
                     <div class="gallery-image">
-                        <div class="img-box" data-aos='fade-left'>
-                            <img src="https://picsum.photos/350/250?image=444" alt="" />
-                            <div class="transparent-box">
-                                <div class="caption">
-                                <p>Library</p>
-                                <p class="opacity-low">Architect Design</p>
-                                </div>
-                            </div> 
-                        </div>
-                        <div class="img-box" data-aos='fade-left' data-aos-delay='100'>
-                            <img src="https://picsum.photos/350/250/?image=232" alt="" />
-                            <div class="transparent-box">
-                                <div class="caption">
-                                <p>Night Sky</p>
-                                <p class="opacity-low">Cinematic</p>
+                        <a href='/codingProjects'>
+                            <div class="img-box" data-aos='fade-left'>
+                                <img src='./Images/codingLogoPic.png' alt="" />
+                                <div class="transparent-box">
+                                    <div class="caption">
+                                    <p>Coding</p>
+                                    <p>Tools, Games, and Demonstrations</p>
+                                    </div>
+                                </div> 
+                            </div>
+                        </a>
+                        <a href='/CADProjects'>
+                            <div class="img-box" data-aos='fade-left' data-aos-delay='100'>
+                                <img src='./Images/CADLogo.png' alt="" />
+                                <div class="transparent-box">
+                                    <div class="caption">
+                                    <p>CAD</p>
+                                    <p>AutoCAD and <br></br> Fusion 360</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="img-box" data-aos='fade-left' data-aos-delay='200'>
-                            <img src="https://picsum.photos/350/250/?image=431" alt="" />
-                            <div class="transparent-box">
-                                <div class="caption">
-                                <p>Tea Talk</p>
-                                <p class="opacity-low">Composite</p>
+                        </a>
+                        <a href='/PhotoshopProjects'>
+                            <div class="img-box" data-aos='fade-left' data-aos-delay='200'>
+                                <img src='./Images/PSLogo.png' alt="" />
+                                <div class="transparent-box">
+                                    <div class="caption">
+                                    <p>Photoshop</p>
+                                    <p>Photoshop Creations <br></br> and Flyers</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
-                    <button id='portBTN' class="button" data-aos='fade-right'><span>See More</span></button>
                 </div>
             </div>
         </div>

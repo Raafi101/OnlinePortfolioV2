@@ -1,7 +1,5 @@
-#wholePortfolioDiv {
+#wholePortBTNS {
   background-color: white;
-  border-top: 5px solid;
-  border-color: rgb(195, 7, 63);
   padding-bottom: 40px;
 }
 
@@ -160,7 +158,7 @@
 .gallery-image {
   display: inline-block;
   margin: auto;
-  padding-top: 30px;
+  margin-top: 0px;
   text-align: center;
   width: 100%;
 }

@@ -5,6 +5,9 @@ import Overview from './Pages/OverviewPage.js';
 import Qualifications from './Pages/QualificationsPage.js';
 import Portfolio from './Pages/PortfolioPage.js';
 import Contact from './Pages/ContactPage.js';
+import Coding from './Pages/CodingPage.js';
+import CAD from './Pages/CADPage.js';
+import Photoshop from './Pages/PhotoshopPage.js';
 
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
@@ -17,6 +20,9 @@ function App() {
         <Route exact path='/qualifications' component={Qualifications} />
         <Route exact path='/portfolio' component={Portfolio} />
         <Route exact path='/contact' component={Contact} />
+        <Route exact path='/codingProjects' component={Coding} />
+        <Route exact path='/CADProjects' component={CAD} />
+        <Route exact path='/PhotoshopProjects' component={Photoshop} />
       </Switch>
     </Router>
   );

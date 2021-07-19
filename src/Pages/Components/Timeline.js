@@ -35,6 +35,8 @@ function Timeline() {
                         <div class='time' data-aos='zoom-in'>
                             <h4>September 2014</h4>
                         </div>
+                        <img class='TLPic' data-aos='zoom-in' src='./Images/Siths1.png' />
+                        <img class='TLPic2' data-aos='zoom-in' src='./Images/Siths2.png' />
                     </li>
 
                     <li class='Entry'>
@@ -51,6 +53,7 @@ function Timeline() {
                         <div class='time' data-aos='zoom-in'>
                             <h4>September 2015</h4>
                         </div>
+                        <img class='TLPic' data-aos='zoom-in' src='./Images/brightLeadershipAcademy.jpg' />
                     </li>
 
                     <li class='Entry'>
@@ -96,6 +99,7 @@ function Timeline() {
                         <div id='dumbO' class='time' data-aos='zoom-in'>
                             <h4>August 2018</h4>
                         </div>
+                        <img class='TLPic' data-aos='zoom-in' src='./Images/HunterRanking.jpg' />
                     </li>
 
                     <li class='Entry'>

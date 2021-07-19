@@ -6,13 +6,17 @@ import Footer from './Components/Footer.js';
 
 function Contact() {
   return (
-    <div id='masterDiv'>
+    <body>
+      <div id='masterDiv'>
 
-      <Navbar />
-      <DropDown />
-      <Footer />
+        <Navbar />
+        <DropDown />
+        <div id='contactFooter'>
+          <Footer />
+        </div>
 
-    </div>
+      </div>
+    </body>
   );
 }
 

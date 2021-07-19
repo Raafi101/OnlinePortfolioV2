@@ -1,0 +1,72 @@
+body {
+  background-color: white;
+}
+
+#wholeProjectOdd {
+  padding-bottom: 40px;
+  overflow: hidden;
+}
+
+#ProjectOddSummany {
+  width: 100%;
+  display: inline-block;
+}
+
+#ProjectOddTitle {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  font-size: 4vh;
+  z-index: -2;
+  color: rgb(26, 26, 29);
+}
+
+#vidDiv {
+  width: 100%;
+  display: flex;
+}
+
+@media screen and (min-width: 750px) {
+  #ProjectOdd {
+    width: 60%;
+    margin: auto;
+  }
+
+  #ProjectOddText {
+    width: 100%;
+    text-align: center;
+    font-size: 2.5vh;
+    color: rgb(26, 26, 29);
+  }
+
+  #ProjectOddVid {
+    height: 30vw;
+    margin: auto;
+    border: 5px solid;
+    border-color: rgb(195, 7, 63);
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #ProjectOdd {
+    width: 80%;
+    margin: auto;
+  }
+
+  #ProjectOddVid {
+    width: 100%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  #ProjectOddText {
+    margin: auto;
+    width: 100%;
+    font-size: 2.5vh;
+    text-align: center;
+    color: rgb(26, 26, 29);
+  }
+}

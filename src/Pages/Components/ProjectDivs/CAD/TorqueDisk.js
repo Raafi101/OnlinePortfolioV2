@@ -17,7 +17,7 @@ function TorqueDisk() {
                         A school project where I had to design a torque disk.
                     </h2>
                     <div id='vidDiv'>
-                        <img id='ProjectEvenVid' src='./Images/Torque_disk.png' data-aos='zoom-in' data-aos-delay='100' data-aos-duration='500' />
+                        <img id='ProjectEvenVid' src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/Torque_disk.png' data-aos='zoom-in' data-aos-delay='100' data-aos-duration='500' />
                     </div>
                 </div>
             </div>

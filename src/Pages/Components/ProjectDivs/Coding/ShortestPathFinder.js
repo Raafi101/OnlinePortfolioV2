@@ -23,7 +23,7 @@ function ShortestPathFinder() {
                     </h2>
                     <div id='vidDiv'>
                         <video id='ProjectEvenVid' controls data-aos='zoom-in' data-aos-delay='100' data-aos-duration='500'>
-                            <source src='./Images/PathFindingVid.mp4' type='video/mp4'/>
+                            <source src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/PathFindingVid.mp4' type='video/mp4'/>
                         </video>
                     </div>
                     <a href='https://github.com/Raafi101/ShortestPathFinder' target='_blank'>

@@ -18,7 +18,7 @@ function Gasket() {
                         to design a gasket that could be used in pipes
                     </h2>
                     <div id='vidDiv'>
-                        <img id='ProjectEvenVid' src='./Images/Gasket.png' data-aos='zoom-in' data-aos-delay='100' data-aos-duration='500' />
+                        <img id='ProjectEvenVid' src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/Gasket.png' data-aos='zoom-in' data-aos-delay='100' data-aos-duration='500' />
                     </div>
                 </div>
             </div>

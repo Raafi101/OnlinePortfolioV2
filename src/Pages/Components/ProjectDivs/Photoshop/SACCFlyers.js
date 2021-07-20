@@ -14,14 +14,14 @@ function SACCFlyers() {
                 <h1 id='ProjectOddTitle' data-aos='zoom-in'>South Asian Culture Club (SACC) Flyers</h1>
                 <div id='ProjectOddSummary'>
                     <div id='SACCFlyerDiv'>
-                        <img id='ProjectEvenPic' src='./Images/OpenHouse.png' data-aos='zoom-in' data-aos-delay='100' data-aos-duration='500' />
-                        <img id='ProjectEvenPic' src='./Images/OpenMicNightSACCfinal.png' data-aos='zoom-in' data-aos-delay='100' data-aos-duration='500' />
-                        <img id='ProjectEvenPic' src='./Images/SACCPicnic.png' data-aos='zoom-in' data-aos-delay='100' data-aos-duration='500' />
-                        <img id='ProjectEvenPic' src='./Images/ChaiTime.png' data-aos='zoom-in' data-aos-delay='100' data-aos-duration='500' />
-                        <img id='ProjectEvenPic' src='./Images/DanceWorkshop.png' data-aos='zoom-in' data-aos-delay='100' data-aos-duration='500' />
-                        <img id='ProjectEvenPic' src='./Images/GameNightSACCDraft2.png' data-aos='zoom-in' data-aos-delay='100' data-aos-duration='500' />
-                        <img id='ProjectEvenPic' src='./Images/SACCChaiTimeXOpenMic.png' data-aos='zoom-in' data-aos-delay='100' data-aos-duration='500' />
-                        <img id='ProjectEvenPic' src='./Images/SACCElectionsSpring2021Flyer.png' data-aos='zoom-in' data-aos-delay='100' data-aos-duration='500' />
+                        <img id='ProjectEvenPic' src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/OpenHouse.png' data-aos='zoom-in' data-aos-delay='100' data-aos-duration='500' />
+                        <img id='ProjectEvenPic' src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/OpenMicNightSACCfinal.png' data-aos='zoom-in' data-aos-delay='100' data-aos-duration='500' />
+                        <img id='ProjectEvenPic' src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/SACCpicnic.png' data-aos='zoom-in' data-aos-delay='100' data-aos-duration='500' />
+                        <img id='ProjectEvenPic' src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/ChaiTime.png' data-aos='zoom-in' data-aos-delay='100' data-aos-duration='500' />
+                        <img id='ProjectEvenPic' src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/DanceWorkshop.png' data-aos='zoom-in' data-aos-delay='100' data-aos-duration='500' />
+                        <img id='ProjectEvenPic' src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/GameNightSACCDraft2.png' data-aos='zoom-in' data-aos-delay='100' data-aos-duration='500' />
+                        <img id='ProjectEvenPic' src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/SACCChaiTimeXOpenMic.png' data-aos='zoom-in' data-aos-delay='100' data-aos-duration='500' />
+                        <img id='ProjectEvenPic' src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/SACCElectionsSpring2021Flyer.png' data-aos='zoom-in' data-aos-delay='100' data-aos-duration='500' />
                     </div>
                 </div>
             </div>

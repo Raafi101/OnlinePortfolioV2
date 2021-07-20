@@ -36,7 +36,6 @@ function Timeline() {
                             <h4>September 2014</h4>
                         </div>
                         <img class='TLPic' data-aos='zoom-in' src='./Images/Siths1.png' />
-                        <img class='TLPic2' data-aos='zoom-in' src='./Images/Siths2.png' />
                     </li>
 
                     <li class='Entry'>
@@ -73,6 +72,7 @@ function Timeline() {
                             <h3>Graduated Staten Island Technical High School</h3>
                             <p>Graduated with an Advanced Regents Diploma
                             </p>
+                            <img class='TLPic' data-aos='zoom-in' src='./Images/Siths2.png' />
                         </div>
                         <div id='dumbE' class='time' data-aos='zoom-in'>
                             <h4>July 2018</h4>

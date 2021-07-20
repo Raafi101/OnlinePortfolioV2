@@ -26,7 +26,7 @@ function PortfolioDiv() {
                     </h2>
                     <div class="gallery-image">
                         <a href='/codingProjects'>
-                            <div class="img-box" data-aos='fade-left'>
+                            <div class="img-box" data-aos='zoom-in'>
                                 <img src='./Images/codingLogoPic.png' alt="" />
                                 <div class="transparent-box">
                                     <div class="caption">
@@ -37,7 +37,7 @@ function PortfolioDiv() {
                             </div>
                         </a>
                         <a href='/CADProjects'>
-                            <div class="img-box" data-aos='fade-left' data-aos-delay='100'>
+                            <div class="img-box" data-aos='zoom-in' data-aos-delay='100'>
                                 <img src='./Images/CADLogo.png' alt="" />
                                 <div class="transparent-box">
                                     <div class="caption">
@@ -48,7 +48,7 @@ function PortfolioDiv() {
                             </div>
                         </a>
                         <a href='/PhotoshopProjects'>
-                            <div class="img-box" data-aos='fade-left' data-aos-delay='200'>
+                            <div class="img-box" data-aos='zoom-in' data-aos-delay='200'>
                                 <img src='./Images/PSLogo.png' alt="" />
                                 <div class="transparent-box">
                                     <div class="caption">

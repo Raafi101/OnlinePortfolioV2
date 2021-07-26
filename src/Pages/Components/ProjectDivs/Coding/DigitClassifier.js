@@ -30,7 +30,7 @@ function DigitClassifier() {
                         how to save a model for future use.
                     </h2>
                     <div id='vidDiv'>
-                        <video id='ProjectOddVid' controls data-aos='zoom-in' data-aos-delay='100'>
+                        <video id='ProjectOddVid' playsinline controls data-aos='zoom-in' data-aos-delay='100'>
                             <source src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/DigitVid.mp4' type='video/mp4'/>
                         </video>
                     </div>

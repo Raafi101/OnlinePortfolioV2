@@ -56,7 +56,7 @@ body {
   }
 
   #ProjectOddVid {
-    height: 30vw;
+    width: 100%;
     margin: auto;
     padding-top: 30px;
     padding-bottom: 20px;

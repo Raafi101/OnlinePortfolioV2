@@ -1,19 +1,14 @@
 import React, {Fragment} from 'react';
 import './ProjectOdd.css';
 
-import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
-// ..
-AOS.init();
-
 function HAL9000() {
 
     return (
         <div id='wholeProjectOdd'>
             <div id='ProjectOdd'>
-                <h1 id='ProjectOddTitle' data-aos='zoom-in' data-aos-duration='500'>HAL9000</h1>
+                <h1 id='ProjectOddTitle'>HAL9000</h1>
                 <div id='ProjectOddSummary'>
-                    <h2 id='ProjectOddText' data-aos='zoom-in' data-aos-delay='200' data-aos-duration='500'>
+                    <h2 id='ProjectOddText'>
                         My earliest project. 
                         A text-based mish mash of basic Python techniques for practice. 
                         Name inspired by antagonist from 
@@ -23,12 +18,12 @@ function HAL9000() {
                         basic logic statements, and basic loops.
                     </h2>
                     <div id='vidDiv'>
-                        <video id='ProjectOddVid' controls data-aos='zoom-in' data-aos-delay='100' data-aos-duration='500'>
-                            <source src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/HALVid.mp4' type='video/mp4'/>
+                        <video id='ProjectOddVid' preload="metadata" controls>
+                            <source src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/HALVid.mp4#t=0.1' type='video/mp4'/>
                         </video>
                     </div>
                     <a href='https://github.com/Raafi101/HAL9000' target='_blank'>
-                        <button id='projectBTN' class="button" data-aos='zoom-in' data-aos-delay='150'>
+                        <button id='projectBTN' class="button">
                             <span>
                                 <i class="fab fa-github"/>
                                 &nbsp;Project Repository

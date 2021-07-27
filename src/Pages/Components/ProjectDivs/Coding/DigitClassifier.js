@@ -1,19 +1,14 @@
 import React, {Fragment} from 'react';
 import './ProjectOdd.css';
 
-import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
-// ..
-AOS.init();
-
 function DigitClassifier() {
 
     return (
         <div id='wholeProjectOdd'>
             <div id='ProjectOdd'>
-                <h1 id='ProjectOddTitle' data-aos='zoom-in'>Digit Classifier</h1>
+                <h1 id='ProjectOddTitle'>Digit Classifier</h1>
                 <div id='ProjectOddSummary'>
-                    <h2 id='ProjectOddText' data-aos='zoom-in'>
+                    <h2 id='ProjectOddText'>
                         Model created and trained using Tensorflow. 
                         The dataset used is the MNIST handwritten 
                         digits dataset. The GUI was created using tkinter. 
@@ -30,12 +25,12 @@ function DigitClassifier() {
                         how to save a model for future use.
                     </h2>
                     <div id='vidDiv'>
-                        <video id='ProjectOddVid' preload="metadata" controls data-aos='zoom-in' data-aos-delay='100'>
+                        <video id='ProjectOddVid' preload="metadata" controls>
                             <source src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/DigitVid.mp4#t=0.1' type='video/mp4'/>
                         </video>
                     </div>
                     <a href='https://github.com/Raafi101/DigitClassifier' target='_blank'>
-                        <button id='projectBTN' class="button" data-aos='zoom-in' data-aos-delay='150'>
+                        <button id='projectBTN' class="button">
                             <span>
                                 <i class="fab fa-github"/>
                                 &nbsp;Project Repository

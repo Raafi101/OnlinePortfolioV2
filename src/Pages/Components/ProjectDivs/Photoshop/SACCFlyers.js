@@ -1,27 +1,22 @@
 import React, {Fragment} from 'react';
 import './ProjectOdd.css';
 
-import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
-// ..
-AOS.init();
-
 function SACCFlyers() {
 
     return (
         <div id='wholeProjectOdd'>
             <div id='ProjectOdd'>
-                <h1 id='ProjectOddTitle' data-aos='zoom-in'>South Asian Culture Club (SACC) Flyers</h1>
+                <h1 id='ProjectOddTitle'>South Asian Culture Club (SACC) Flyers</h1>
                 <div id='ProjectOddSummary'>
                     <div id='SACCFlyerDiv'>
-                        <img id='ProjectEvenPic' src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/OpenHouse.png' data-aos='zoom-in' data-aos-delay='100' data-aos-duration='500' />
-                        <img id='ProjectEvenPic' src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/OpenMicNightSACCfinal.png' data-aos='zoom-in' data-aos-delay='100' data-aos-duration='500' />
-                        <img id='ProjectEvenPic' src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/SACCpicnic.png' data-aos='zoom-in' data-aos-delay='100' data-aos-duration='500' />
-                        <img id='ProjectEvenPic' src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/ChaiTime.png' data-aos='zoom-in' data-aos-delay='100' data-aos-duration='500' />
-                        <img id='ProjectEvenPic' src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/DanceWorkshop.png' data-aos='zoom-in' data-aos-delay='100' data-aos-duration='500' />
-                        <img id='ProjectEvenPic' src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/GameNightSACCDraft2.png' data-aos='zoom-in' data-aos-delay='100' data-aos-duration='500' />
-                        <img id='ProjectEvenPic' src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/SACCChaiTimeXOpenMic.png' data-aos='zoom-in' data-aos-delay='100' data-aos-duration='500' />
-                        <img id='ProjectEvenPic' src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/SACCElectionsSpring2021Flyer.png' data-aos='zoom-in' data-aos-delay='100' data-aos-duration='500' />
+                        <img id='ProjectEvenPic' src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/OpenHouse.png'/>
+                        <img id='ProjectEvenPic' src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/OpenMicNightSACCfinal.png'/>
+                        <img id='ProjectEvenPic' src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/SACCpicnic.png'/>
+                        <img id='ProjectEvenPic' src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/ChaiTime.png'/>
+                        <img id='ProjectEvenPic' src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/DanceWorkshop.png'/>
+                        <img id='ProjectEvenPic' src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/GameNightSACCDraft2.png'/>
+                        <img id='ProjectEvenPic' src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/SACCChaiTimeXOpenMic.png'/>
+                        <img id='ProjectEvenPic' src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/SACCElectionsSpring2021Flyer.png'/>
                     </div>
                 </div>
             </div>

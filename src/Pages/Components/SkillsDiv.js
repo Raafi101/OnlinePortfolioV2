@@ -11,10 +11,10 @@ function SkillsDiv() {
     return (
         <div id='wholeSkillsDiv'>
             <div id='SkillsDiv'>
-                <h1 id='SkillsTitle' data-aos='fade-down' data-aos-duration='500'>Technical Skills</h1>
+                <h1 id='SkillsTitle'>Technical Skills</h1>
                 <div id='SkillsSummary'>
 
-                    <h1 id='SkillsSub' data-aos='fade-down'>Programming Languages</h1>
+                    <h1 id='SkillsSub'>Programming Languages</h1>
 
                     <div id='bloc'>
                         <div id='langName' data-aos='fade-right'>
@@ -76,7 +76,7 @@ function SkillsDiv() {
                         </div>
                     </div>
 
-                    <h1 id='SkillsSub' data-aos='fade-down'>Spoken Languages</h1>
+                    <h1 id='SkillsSub'>Spoken Languages</h1>
 
                     <div id='bloc'>
                         <div id='langName' data-aos='fade-right'>
@@ -123,7 +123,7 @@ function SkillsDiv() {
                         </div>
                     </div>
 
-                    <h1 id='SkillsSub' data-aos='fade-down'>Technologies</h1>
+                    <h1 id='SkillsSub'>Technologies</h1>
 
                     <div id='bloc'>
                         <div id='techList'>
@@ -149,12 +149,12 @@ function SkillsDiv() {
                     </div>
 
                     <div id='bloc'>
-                        <h1 id='SkillsSub' data-aos='fade-down'>Other Skills</h1>
+                        <h1 id='SkillsSub'>Other Skills</h1>
                         <div id='miscList'>
-                            <h2 id='MiscText' data-aos='fade-right'>AutoCAD Certified with training in Revit and Fusion360.</h2>
-                            <h2 id='MiscText' data-aos='fade-right'>Experienced computer builder.</h2>
-                            <h2 id='MiscText' data-aos='fade-right'>Plays the trombone, baritone, and guitar.</h2>
-                            <h2 id='MiscText' data-aos='fade-right'>Well-versed in Photoshop.</h2>
+                            <h2 id='MiscText' data-aos='fade-left'>AutoCAD Certified with training in Revit and Fusion360.</h2>
+                            <h2 id='MiscText' data-aos='fade-left'>Experienced computer builder.</h2>
+                            <h2 id='MiscText' data-aos='fade-left'>Plays the trombone, baritone, and guitar.</h2>
+                            <h2 id='MiscText' data-aos='fade-left'>Well-versed in Photoshop.</h2>
                         </div>
                     </div>
                     

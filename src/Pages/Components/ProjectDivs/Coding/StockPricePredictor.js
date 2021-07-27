@@ -1,19 +1,14 @@
 import React, {Fragment} from 'react';
 import './ProjectEven.css';
 
-import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
-// ..
-AOS.init();
-
 function StockPricePredictor() {
 
     return (
         <div id='wholeProjectEven'>
             <div id='ProjectEven'>
-                <h1 id='ProjectEvenTitle' data-aos='zoom-in' data-aos-duration='500'>Stock Price Predictor</h1>
+                <h1 id='ProjectEvenTitle'>Stock Price Predictor</h1>
                 <div id='ProjectEvenSummary'>
-                    <h2 id='ProjectEvenText' data-aos='zoom-in' data-aos-delay='200' data-aos-duration='500'>
+                    <h2 id='ProjectEvenText'>
                         Model created and trained using Tensorflow. 
                         The dataset used is Yahoo!'s stock price dataset. 
                         This is a very crude program that is Not accurate. 
@@ -31,12 +26,12 @@ function StockPricePredictor() {
                         intersting field with a ton of potential!
                     </h2>
                     <div id='vidDiv'>
-                        <video id='ProjectEvenVid' controls data-aos='zoom-in' data-aos-delay='100' data-aos-duration='500'>
-                            <source src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/StockVid.mp4' type='video/mp4'/>
+                        <video id='ProjectEvenVid' preload="metadata" controls>
+                            <source src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/StockVid.mp4#t=0.1' type='video/mp4'/>
                         </video>
                     </div>
                     <a href='https://github.com/Raafi101/StockPricePredictor' target='_blank'>
-                        <button id='projectBTN' class="button" data-aos='zoom-in' data-aos-delay='150'>
+                        <button id='projectBTN' class="button">
                             <span>
                                 <i class="fab fa-github"/>
                                 &nbsp;Project Repository

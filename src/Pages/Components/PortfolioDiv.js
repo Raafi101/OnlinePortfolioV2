@@ -11,9 +11,9 @@ function PortfolioDiv() {
     return (
         <div id='wholePortfolioDiv'>
             <div id='PortfolioDiv'>
-                <h1 id='PortfolioTitle' data-aos='fade-down' data-aos-duration='500'>Raafi's Portfolio</h1>
+                <h1 id='PortfolioTitle'>Raafi's Portfolio</h1>
                 <div id='PortfolioSummary'>
-                    <h2 id='PortfolioText' data-aos='fade-right' data-aos-delay='200' data-aos-duration='500'>
+                    <h2 id='PortfolioText' data-aos='zoom-in'>
                         Raafi works on many projects that have to do with programming, 
                         engineering design, and visual design. A notable project 
                         is his Personal Assistant that can recognize human voice and perform tasks 

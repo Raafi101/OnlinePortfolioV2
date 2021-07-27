@@ -11,7 +11,7 @@ function QualificationDiv() {
     return (
         <div id='wholeQualDiv'>
             <div id='QualificationDiv'>
-                <h1 id='qualificationTitle' data-aos='fade-down' data-aos-duration='500'>Raafi's Qualifications</h1>
+                <h1 id='qualificationTitle'>Raafi's Qualifications</h1>
                 <div id='qualificationSummary'>
                     <h2 id='qualificationText' data-aos='fade-right' data-aos-delay='200' data-aos-duration='500'>
                         Raafi is an A+ student, currently holding a 3.663 GPA.

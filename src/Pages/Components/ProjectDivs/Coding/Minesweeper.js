@@ -1,19 +1,14 @@
 import React, {Fragment} from 'react';
 import './ProjectOdd.css';
 
-import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
-// ..
-AOS.init();
-
 function Minesweeper() {
 
     return (
         <div id='wholeProjectOdd'>
             <div id='ProjectOdd'>
-                <h1 id='ProjectOddTitle' data-aos='zoom-in' data-aos-duration='500'>Minesweeper</h1>
+                <h1 id='ProjectOddTitle'>Minesweeper</h1>
                 <div id='ProjectOddSummary'>
-                    <h2 id='ProjectOddText' data-aos='zoom-in' data-aos-delay='200' data-aos-duration='500'>
+                    <h2 id='ProjectOddText'>
                         A remake of the retro classic, Minesweeper, 
                         with a graphical twist. I used Python to write 
                         this program and used Python libraries such as 
@@ -24,12 +19,12 @@ function Minesweeper() {
                         learned how to play Minesweeper.
                     </h2>
                     <div id='vidDiv'>
-                        <video id='ProjectOddVid' controls data-aos='zoom-in' data-aos-delay='100' data-aos-duration='500'>
-                            <source src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/MineVid.mp4' type='video/mp4'/>
+                        <video id='ProjectOddVid' preload="metadata" controls>
+                            <source src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/MineVid.mp4#t=0.1' type='video/mp4'/>
                         </video>
                     </div>
                     <a href='https://github.com/Raafi101/Minesweeper' target='_blank'>
-                        <button id='projectBTN' class="button" data-aos='zoom-in' data-aos-delay='150'>
+                        <button id='projectBTN' class="button">
                             <span>
                                 <i class="fab fa-github"/>
                                 &nbsp;Project Repository

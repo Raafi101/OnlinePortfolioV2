@@ -11,10 +11,10 @@ function AddInfoDiv() {
     return (
         <div id='wholeAddInfoDiv'>
             <div id='AddInfoDiv'>
-                <h1 id='AddInfoTitle' data-aos='fade-down' data-aos-duration='500'>Additional Information</h1>
+                <h1 id='AddInfoTitle'>Additional Information</h1>
                 <div id='AddInfoSummary'>
                     
-                    <h1 id='SkillsSub' data-aos='fade-down'>Certifications and Honors</h1>
+                    <h1 id='SkillsSub'>Certifications and Honors</h1>
                     <div id='bloc'>
                         <div id='miscList'>
                             <h2 id='MiscText1' data-aos='fade-right'>Yalow Honors Student</h2>
@@ -24,23 +24,23 @@ function AddInfoDiv() {
                         </div>
                     </div>
 
-                    <h1 id='AddInfoSub' data-aos='fade-down'>Soft Skills</h1>
+                    <h1 id='AddInfoSub'>Soft Skills</h1>
 
                     <div id='bloc'>
                         <div id='InterestList'>
-                            <h2 id='InterestText' data-aos='fade-right'>Natural leader,</h2>
-                            <h2 id='InterestText' data-aos='fade-right'>Calculated,</h2> 
-                            <h2 id='InterestText' data-aos='fade-right'>Particular,</h2> 
-                            <h2 id='InterestText' data-aos='fade-right'>Deep thinker,</h2>
-                            <h2 id='InterestText' data-aos='fade-right'>Socially adept,</h2>
-                            <h2 id='InterestText' data-aos='fade-right'>Motivated,</h2> 
-                            <h2 id='InterestText' data-aos='fade-right'>Determined,</h2> 
-                            <h2 id='InterestText' data-aos='fade-right'>Creative,</h2> 
-                            <h2 id='InterestText' data-aos='fade-right'>Understanding</h2>
+                            <h2 id='InterestText' data-aos='fade-left'>Natural leader,</h2>
+                            <h2 id='InterestText' data-aos='fade-left'>Calculated,</h2> 
+                            <h2 id='InterestText' data-aos='fade-left'>Particular,</h2> 
+                            <h2 id='InterestText' data-aos='fade-left'>Deep thinker,</h2>
+                            <h2 id='InterestText' data-aos='fade-left'>Socially adept,</h2>
+                            <h2 id='InterestText' data-aos='fade-left'>Motivated,</h2> 
+                            <h2 id='InterestText' data-aos='fade-left'>Determined,</h2> 
+                            <h2 id='InterestText' data-aos='fade-left'>Creative,</h2> 
+                            <h2 id='InterestText' data-aos='fade-left'>Understanding</h2>
                         </div>
                     </div>
 
-                    <h1 id='AddInfoSub' data-aos='fade-down'>Interests</h1>
+                    <h1 id='AddInfoSub'>Interests</h1>
 
                     <div id='bloc'>
                         <div id='InterestList'>

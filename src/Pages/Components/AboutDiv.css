@@ -39,8 +39,8 @@ body {
   #aboutPic {
     width: 25vh;
     margin-top: 7px;
-    margin-right: 50px;
-    padding-bottom: 10px;
+    margin-right: 20px;
+    padding-bottom: 0px;
     float: left;
   }
 }

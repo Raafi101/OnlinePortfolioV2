@@ -3,7 +3,7 @@
   border-top: 5px solid;
   border-color: rgb(195, 7, 63);
   padding-bottom: 40px;
-  z-index: 2;
+  overflow-x: hidden;
 }
 
 #SkillsSummary {
@@ -14,7 +14,7 @@
 #SkillsTitle {
   text-align: center;
   margin-top: 40px;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
   font-size: 4vh;
   z-index: -2;
   color: white;
@@ -38,7 +38,6 @@
   position: absolute;
   opacity: 0;
   top: 0;
-  right: -20px;
   transition: 0.5s;
 }
 
@@ -87,6 +86,7 @@
 #MiscText {
   color: white;
   margin-right: 15px;
+  margin-top: 15px;
   float: left;
   font-size: 2.5vh;
   width: 100%;
@@ -163,6 +163,7 @@
   #SkillsSub {
     margin: auto;
     width: 100%;
+    margin-top: 40px;
     font-size: 5vh;
     text-align: center;
     color: rgb(195, 7, 63);

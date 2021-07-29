@@ -10,7 +10,7 @@ import AddInfoDiv from './Components/AddInfoDiv';
 
 function Qualifications() {
   return (
-    <div id='masterDiv'>
+    <div id='qualMasterDiv'>
 
       <Navbar />
       <DropDown />

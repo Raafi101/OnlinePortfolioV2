@@ -16,7 +16,7 @@ function Snake() {
                         how to use Pygame.
                     </h2>
                     <div id='vidDiv'>
-                        <video id='ProjectOddVid' preload="metadata" controls>
+                        <video id='ProjectOddVid' controls>
                             <source src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/SnakeVid.mp4#t=0.1' type='video/mp4'/>
                         </video>
                     </div>

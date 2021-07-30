@@ -26,7 +26,7 @@ function StockPricePredictor() {
                         intersting field with a ton of potential!
                     </h2>
                     <div id='vidDiv'>
-                        <video id='ProjectEvenVid' preload="metadata" controls>
+                        <video id='ProjectEvenVid' controls>
                             <source src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/StockVid.mp4#t=0.1' type='video/mp4'/>
                         </video>
                     </div>

@@ -64,7 +64,7 @@
   -o-animation-timing-function: linear;
   animation-timing-function: linear;
   width: 100%;
-  height: 53rem;
+  height: 50rem;
   filter: invert(100%);
   z-index: -1;
 }
@@ -86,19 +86,19 @@
   background-image: linear-gradient(90deg, #3cf8c0, #03b994);
   background-clip: text;
   font-size: 8vh;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 #title {
   color: black;
   font-size: 4vh;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 #quote {
   color: black;
   font-size: 4vh;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 #author {

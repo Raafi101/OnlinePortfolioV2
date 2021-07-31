@@ -3,6 +3,7 @@
   margin: 0px;
   width: 100%;
   background-color: white;
+  padding-top: 30px;
 }
 
 .Timeline {
@@ -18,7 +19,7 @@
   position: absolute;
   left: 10%;
   width: 2px;
-  height: 300vh;
+  height: 270vh;
   background-color: rgb(26, 26, 29);
 }
 
@@ -83,6 +84,28 @@ h1 {
 }
 
 .TLPic {
-  width: 90%;
-  margin-left: -40px;
+  width: 45%;
+  margin-right: 50px;
+  margin-left: -35px;
+}
+
+#picsDiv {
+  display: inline-block;
+}
+
+@media screen and (max-width: 750px) {
+  .TLPic {
+    width: 110%;
+    margin-left: -40px;
+    margin-bottom: 20px;
+  }
+
+  .Timeline ul:before {
+    content: "";
+    position: absolute;
+    left: 10%;
+    width: 2px;
+    height: 400vh;
+    background-color: rgb(26, 26, 29);
+  }
 }

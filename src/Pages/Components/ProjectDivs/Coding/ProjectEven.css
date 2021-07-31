@@ -3,7 +3,7 @@ body {
 }
 
 #wholeProjectEven {
-  padding-bottom: 40px;
+  padding-bottom: 0px;
   background-color: rgb(26, 26, 29);
   border-top: 5px solid;
   border-bottom: 5px solid;

@@ -35,8 +35,10 @@ function Timeline() {
                                 Musical Stage Crew, Science Olympiad, 
                                 Sustainability Club</p>
                         </div>
-                        <img class='TLPic' data-aos='zoom-in' src='./Images/Siths1.png' />
-                        <img class='TLPic' data-aos='zoom-in' src='./Images/Siths2.png' />
+                        <div id="picsDiv">
+                            <img class='TLPic' data-aos='zoom-in' src='./Images/Siths1.png' />
+                            <img class='TLPic' data-aos='zoom-in' src='./Images/Siths2.png' />
+                        </div>
                     </li>
 
                     <li class='Entry'>
@@ -53,7 +55,9 @@ function Timeline() {
                                 the Specialized High Schools Admissions 
                                 Test (SHSAT)</p>
                         </div>
-                        <img class='TLPic' data-aos='zoom-in' src='./Images/brightLeadershipAcademy.jpg' />
+                        <div id="picsDiv">
+                            <img class='TLPic' data-aos='zoom-in' src='./Images/brightLeadershipAcademy.jpg' />
+                        </div>
                     </li>
 
                     <li class='Entry'>
@@ -99,7 +103,6 @@ function Timeline() {
                                 Hunter Symphony <br/>
                                 Trombonist (2018-2019)</p>
                         </div>
-                        <img class='TLPic' data-aos='zoom-in' src='./Images/HunterRanking.jpg' />
                     </li>
 
                     <li class='Entry'>

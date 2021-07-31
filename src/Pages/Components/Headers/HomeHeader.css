@@ -86,19 +86,19 @@
   background-image: linear-gradient(90deg, #3cf8c0, #03b994);
   background-clip: text;
   font-size: 8vh;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 #title {
   color: black;
   font-size: 4vh;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 #quote {
   color: black;
   font-size: 4vh;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 #author {
@@ -112,6 +112,29 @@
 }
 
 @media screen and (max-width: 750px) {
+  #animation {
+    padding-top: 80px;
+    /* img size is 50x50 */
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC")
+      repeat 0 0;
+    -webkit-animation: bg-scrolling-reverse 0.92s infinite;
+    /* Safari 4+ */
+    -moz-animation: bg-scrolling-reverse 0.92s infinite;
+    /* Fx 5+ */
+    -o-animation: bg-scrolling-reverse 0.92s infinite;
+    /* Opera 12+ */
+    animation: bg-scrolling-reverse 0.92s infinite;
+    /* IE 10+ */
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+    width: 100%;
+    height: 53rem;
+    filter: invert(100%);
+    z-index: -1;
+  }
+
   #header {
     display: block;
     position: absolute;
@@ -120,5 +143,35 @@
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
+  }
+
+  #name {
+    color: transparent;
+    background-image: linear-gradient(90deg, #3cf8c0, #03b994);
+    background-clip: text;
+    font-size: 8vh;
+    padding-bottom: 15px;
+  }
+
+  #title {
+    color: black;
+    font-size: 4vh;
+    padding-bottom: 15px;
+  }
+
+  #quote {
+    color: black;
+    font-size: 4vh;
+    padding-bottom: 15px;
+  }
+
+  #author {
+    color: transparent;
+    background-image: linear-gradient(90deg, #3cf8c0, #03b994);
+    background-clip: text;
+    font-size: 4vh;
+    padding-bottom: 15px;
+    float: right;
+    margin-right: 12%;
   }
 }

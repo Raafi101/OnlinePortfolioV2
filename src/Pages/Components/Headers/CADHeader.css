@@ -49,9 +49,9 @@
 #wholeCADHead {
   background: linear-gradient(
     180deg,
-    rgb(195, 7, 63),
-    rgb(195, 7, 63),
-    #fc466b,
+    rgb(0, 0, 0),
+    rgb(48, 48, 48),
+    #b3b3b3,
     #ffffff
   );
   padding-top: 80px;

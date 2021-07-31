@@ -1,14 +1,14 @@
 import React, {Fragment} from 'react';
-import './ProjectEven.css';
+import './ProjectEvenCS.css';
 
 function ShortestPathFinder() {
 
     return (
-        <div id='wholeProjectEven'>
-            <div id='ProjectEven'>
-                <h1 id='ProjectEvenTitle'>Shortest Path Finder</h1>
-                <div id='ProjectEvenSummary'>
-                    <h2 id='ProjectEvenText'>
+        <div id='wholeProjectEvenCS'>
+            <div id='ProjectEvenCS'>
+                <h1 id='ProjectEvenCSTitle'>Shortest Path Finder</h1>
+                <div id='ProjectEvenCSSummary'>
+                    <h2 id='ProjectEvenCSText'>
                         A small path finding app that uses Dijkstra's 
                         path finding algorithm made in C++.
                         <br></br><br></br>
@@ -17,7 +17,7 @@ function ShortestPathFinder() {
                         how to implement Bubble Sort.
                     </h2>
                     <div id='vidDiv'>
-                        <video id='ProjectEvenVid' controls>
+                        <video id='ProjectEvenCSVid' controls>
                             <source src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/PathFindingVid.mp4#t=0.1' type='video/mp4'/>
                         </video>
                     </div>

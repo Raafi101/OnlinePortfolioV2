@@ -2,17 +2,17 @@ body {
   background-color: white;
 }
 
-#wholeProjectOdd {
+#wholeProjectOddCAD {
   padding-bottom: 40px;
   overflow: hidden;
 }
 
-#ProjectOddSummany {
+#ProjectOddCADSummany {
   width: 100%;
   display: inline-block;
 }
 
-#ProjectOddTitle {
+#ProjectOddCADTitle {
   text-align: center;
   margin-top: 40px;
   margin-bottom: 30px;
@@ -27,19 +27,19 @@ body {
 }
 
 @media screen and (min-width: 750px) {
-  #ProjectOdd {
+  #ProjectOddCAD {
     width: 60%;
     margin: auto;
   }
 
-  #ProjectOddText {
+  #ProjectOddCADText {
     width: 100%;
     text-align: center;
     font-size: 2.5vh;
     color: rgb(26, 26, 29);
   }
 
-  #ProjectOddVid {
+  #ProjectOddCADVid {
     height: 30vw;
     margin: auto;
     border: 5px solid;
@@ -50,19 +50,16 @@ body {
 }
 
 @media screen and (max-width: 750px) {
-  #ProjectOdd {
+  #ProjectOddCAD {
     width: 80%;
     margin: auto;
   }
 
-  #ProjectOddVid {
+  #ProjectOddCADVid {
     width: 100%;
-    margin: auto;
-    padding-top: 30px;
-    padding-bottom: 20px;
   }
 
-  #ProjectOddText {
+  #ProjectOddCADText {
     margin: auto;
     width: 100%;
     font-size: 2.5vh;

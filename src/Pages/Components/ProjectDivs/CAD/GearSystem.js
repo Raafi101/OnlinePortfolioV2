@@ -1,14 +1,14 @@
 import React, {Fragment} from 'react';
-import './ProjectOdd.css';
+import './ProjectOddCAD.css';
 
 function GearSystem() {
 
     return (
-        <div id='wholeProjectOdd'>
-            <div id='ProjectOdd'>
-                <h1 id='ProjectOddTitle'>3 Gear System</h1>
-                <div id='ProjectOddSummary'>
-                    <h2 id='ProjectOddText'>
+        <div id='wholeProjectOddCAD'>
+            <div id='ProjectOddCAD'>
+                <h1 id='ProjectOddCADTitle'>3 Gear System</h1>
+                <div id='ProjectOddCADSummary'>
+                    <h2 id='ProjectOddCADText'>
                         A system of 3 spur gears that work together. 
                         Gears designed to fit together perfectly. 
                         The largest gear has 48 teeth, the next largest 
@@ -23,7 +23,7 @@ function GearSystem() {
                         how to create dynamic models.
                     </h2>
                     <div id='vidDiv'>
-                        <video id='ProjectOddVid' controls>
+                        <video id='ProjectOddCADVid' controls>
                             <source src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/GearsVid.mp4#t=0.1' type='video/mp4'/>
                         </video>
                     </div>

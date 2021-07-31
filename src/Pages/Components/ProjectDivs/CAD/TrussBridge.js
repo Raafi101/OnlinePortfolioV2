@@ -1,14 +1,14 @@
 import React, {Fragment} from 'react';
-import './ProjectEven.css';
+import './ProjectEvenCAD.css';
 
 function TrussBridge() {
 
     return (
-        <div id='wholeProjectEven'>
-            <div id='ProjectEven'>
-                <h1 id='ProjectEvenTitle'>Truss Bridge</h1>
-                <div id='ProjectEvenSummary'>
-                    <h2 id='ProjectEvenText'>
+        <div id='wholeProjectEvenCAD'>
+            <div id='ProjectEvenCAD'>
+                <h1 id='ProjectEvenCADTitle'>Truss Bridge</h1>
+                <div id='ProjectEvenCADSummary'>
+                    <h2 id='ProjectEvenCADText'>
                         A simple truss bridge I made to learn the basics of 
                         modeling using Fusion 360. Project idea inspired by 
                         my Intro to Engineering class from high school 
@@ -22,7 +22,7 @@ function TrussBridge() {
                         basic Fusion 360 simulations
                     </h2>
                     <div id='vidDiv'>
-                        <video id='ProjectEvenVid' controls>
+                        <video id='ProjectEvenCADVid' controls>
                             <source src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/TrussVid.mp4#t=0.1' type='video/mp4'/>
                         </video>
                     </div>

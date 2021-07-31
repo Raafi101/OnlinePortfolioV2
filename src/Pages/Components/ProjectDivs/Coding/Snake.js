@@ -1,14 +1,14 @@
 import React, {Fragment} from 'react';
-import './ProjectOdd.css';
+import './ProjectOddCS.css';
 
 function Snake() {
 
     return (
-        <div id='wholeProjectOdd'>
-            <div id='ProjectOdd'>
-                <h1 id='ProjectOddTitle'>Snake</h1>
-                <div id='ProjectOddSummary'>
-                    <h2 id='ProjectOddText'>
+        <div id='wholeProjectOddCS'>
+            <div id='ProjectOddCS'>
+                <h1 id='ProjectOddCSTitle'>Snake</h1>
+                <div id='ProjectOddCSSummary'>
+                    <h2 id='ProjectOddCSText'>
                         Another remake of a fan favorite game.
                         <br></br><br></br>
                         What I Learned: How to detect keystrokes, 
@@ -16,7 +16,7 @@ function Snake() {
                         how to use Pygame.
                     </h2>
                     <div id='vidDiv'>
-                        <video id='ProjectOddVid' controls>
+                        <video id='ProjectOddCSVid' controls>
                             <source src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/SnakeVid.mp4#t=0.1' type='video/mp4'/>
                         </video>
                     </div>

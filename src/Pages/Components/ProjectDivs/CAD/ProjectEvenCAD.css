@@ -2,23 +2,27 @@ body {
   background-color: white;
 }
 
-#wholeProjectOdd {
+#wholeProjectEvenCAD {
   padding-bottom: 40px;
+  background-color: rgb(26, 26, 29);
+  border-top: 5px solid;
+  border-bottom: 5px solid;
+  border-color: rgb(195, 7, 63);
   overflow: hidden;
 }
 
-#ProjectOddSummany {
+#ProjectEvenCADSummany {
   width: 100%;
   display: inline-block;
 }
 
-#ProjectOddTitle {
+#ProjectEvenCADTitle {
   text-align: center;
   margin-top: 40px;
   margin-bottom: 30px;
   font-size: 4vh;
   z-index: -2;
-  color: rgb(26, 26, 29);
+  color: white;
 }
 
 #vidDiv {
@@ -26,20 +30,25 @@ body {
   display: flex;
 }
 
+#projectBTN {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
 @media screen and (min-width: 750px) {
-  #ProjectOdd {
+  #ProjectEvenCAD {
     width: 60%;
     margin: auto;
   }
 
-  #ProjectOddText {
+  #ProjectEvenCADText {
     width: 100%;
     text-align: center;
     font-size: 2.5vh;
-    color: rgb(26, 26, 29);
+    color: white;
   }
 
-  #ProjectOddVid {
+  #ProjectEvenCADVid {
     height: 30vw;
     margin: auto;
     border: 5px solid;
@@ -50,23 +59,23 @@ body {
 }
 
 @media screen and (max-width: 750px) {
-  #ProjectOdd {
+  #ProjectEvenCAD {
     width: 80%;
     margin: auto;
   }
 
-  #ProjectOddVid {
+  #ProjectEvenCADVid {
     width: 100%;
     margin: auto;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    padding-top: 30px;
+    padding-bottom: 20px;
   }
 
-  #ProjectOddText {
+  #ProjectEvenCADText {
     margin: auto;
     width: 100%;
     font-size: 2.5vh;
     text-align: center;
-    color: rgb(26, 26, 29);
+    color: white;
   }
 }

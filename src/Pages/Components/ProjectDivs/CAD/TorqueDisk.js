@@ -1,14 +1,14 @@
 import React, {Fragment} from 'react';
-import './ProjectOdd.css';
+import './ProjectOddCAD.css';
 
 function TorqueDisk() {
 
     return (
-        <div id='wholeProjectOdd'>
-            <div id='ProjectOdd'>
-                <h1 id='ProjectOddTitle'>Torque Disk</h1>
-                <div id='ProjectOddSummary'>
-                    <h2 id='ProjectOddText'>
+        <div id='wholeProjectOddCAD'>
+            <div id='ProjectOddCAD'>
+                <h1 id='ProjectOddCADTitle'>Torque Disk</h1>
+                <div id='ProjectOddCADSummary'>
+                    <h2 id='ProjectOddCADText'>
                         A school project where I had to design a torque disk.
                     </h2>
                     <div id='vidDiv'>

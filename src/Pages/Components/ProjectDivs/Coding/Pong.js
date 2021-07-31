@@ -1,14 +1,14 @@
 import React, {Fragment} from 'react';
-import './ProjectEven.css';
+import './ProjectEvenCS.css';
 
 function Pong() {
 
     return (
-        <div id='wholeProjectEven'>
-            <div id='ProjectEven'>
-                <h1 id='ProjectEvenTitle'>Pong</h1>
-                <div id='ProjectEvenSummary'>
-                    <h2 id='ProjectEvenText'>
+        <div id='wholeProjectEvenCS'>
+            <div id='ProjectEvenCS'>
+                <h1 id='ProjectEvenCSTitle'>Pong</h1>
+                <div id='ProjectEvenCSSummary'>
+                    <h2 id='ProjectEvenCSText'>
                         A small adaptation of yet another retro classic, Pong! 
                         Grab a friend a try it out! 
                         <br></br><br></br>
@@ -16,7 +16,7 @@ function Pong() {
                         how to implement kinematic equations into programming.
                     </h2>
                     <div id='vidDiv'>
-                        <video id='ProjectEvenVid' controls>
+                        <video id='ProjectEvenCSVid' controls>
                             <source src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/PongVid2.mp4#t=0.1' type='video/mp4'/>
                         </video>
                     </div>

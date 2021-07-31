@@ -1,14 +1,14 @@
 import React, {Fragment} from 'react';
-import './ProjectEven.css';
+import './ProjectEvenCS.css';
 
 function StockPricePredictor() {
 
     return (
-        <div id='wholeProjectEven'>
-            <div id='ProjectEven'>
-                <h1 id='ProjectEvenTitle'>Stock Price Predictor</h1>
-                <div id='ProjectEvenSummary'>
-                    <h2 id='ProjectEvenText'>
+        <div id='wholeProjectEvenCS'>
+            <div id='ProjectEvenCS'>
+                <h1 id='ProjectEvenCSTitle'>Stock Price Predictor</h1>
+                <div id='ProjectEvenCSSummary'>
+                    <h2 id='ProjectEvenCSText'>
                         Model created and trained using Tensorflow. 
                         The dataset used is Yahoo!'s stock price dataset. 
                         This is a very crude program that is Not accurate. 
@@ -26,7 +26,7 @@ function StockPricePredictor() {
                         intersting field with a ton of potential!
                     </h2>
                     <div id='vidDiv'>
-                        <video id='ProjectEvenVid' controls>
+                        <video id='ProjectEvenCSVid' controls>
                             <source src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/StockVid.mp4#t=0.1' type='video/mp4'/>
                         </video>
                     </div>

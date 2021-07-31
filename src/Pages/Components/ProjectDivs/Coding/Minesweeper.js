@@ -1,14 +1,14 @@
 import React, {Fragment} from 'react';
-import './ProjectOdd.css';
+import './ProjectOddCS.css';
 
 function Minesweeper() {
 
     return (
-        <div id='wholeProjectOdd'>
-            <div id='ProjectOdd'>
-                <h1 id='ProjectOddTitle'>Minesweeper</h1>
-                <div id='ProjectOddSummary'>
-                    <h2 id='ProjectOddText'>
+        <div id='wholeProjectOddCS'>
+            <div id='ProjectOddCS'>
+                <h1 id='ProjectOddCSTitle'>Minesweeper</h1>
+                <div id='ProjectOddCSSummary'>
+                    <h2 id='ProjectOddCSText'>
                         A remake of the retro classic, Minesweeper, 
                         with a graphical twist. I used Python to write 
                         this program and used Python libraries such as 
@@ -19,7 +19,7 @@ function Minesweeper() {
                         learned how to play Minesweeper.
                     </h2>
                     <div id='vidDiv'>
-                        <video id='ProjectOddVid' controls>
+                        <video id='ProjectOddCSVid' controls>
                             <source src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/MineVid.mp4#t=0.1' type='video/mp4'/>
                         </video>
                     </div>

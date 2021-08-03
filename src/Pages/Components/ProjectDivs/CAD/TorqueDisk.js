@@ -12,7 +12,7 @@ function TorqueDisk() {
                         A school project where I had to design a torque disk.
                     </h2>
                     <div id='vidDiv'>
-                        <img id='ProjectOddVid' src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/Torque_disk.png'/>
+                        <img id='ProjectOddVid' height='168px' src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/Torque_disk.png'/>
                     </div>
                 </div>
             </div>

@@ -17,7 +17,7 @@ function ShortestPathFinder() {
                         how to implement Bubble Sort.
                     </h2>
                     <div id='vidDiv'>
-                        <video id='ProjectEvenCSVid' controls>
+                        <video id='ProjectEvenCSVid' height='168px' controls>
                             <source src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/PathFindingVid.mp4#t=0.1' type='video/mp4'/>
                         </video>
                     </div>

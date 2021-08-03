@@ -13,7 +13,7 @@ function Gasket() {
                         to design a gasket that could be used in pipes
                     </h2>
                     <div id='vidDiv'>
-                        <img id='ProjectEvenCADVid' src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/Gasket.png' />
+                        <img id='ProjectEvenCADVid' height='168px' src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/Gasket.png' />
                     </div>
                 </div>
             </div>

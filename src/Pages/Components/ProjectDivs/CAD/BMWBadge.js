@@ -14,7 +14,7 @@ function BMWBadge() {
                         except for obtaining joy in modeling it.
                     </h2>
                     <div id='vidDiv'>
-                        <video id='ProjectOddCADVid' controls>
+                        <video id='ProjectOddCADVid' height='168px' controls>
                             <source src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/BMWVid.mp4#t=0.1' type='video/mp4'/>
                         </video>
                     </div>

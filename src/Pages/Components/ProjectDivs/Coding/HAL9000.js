@@ -18,7 +18,7 @@ function HAL9000() {
                         basic logic statements, and basic loops.
                     </h2>
                     <div id='vidDiv'>
-                        <video id='ProjectOddCSVid' controls>
+                        <video id='ProjectOddCSVid' height='200px' controls>
                             <source src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/HALVid.mp4#t=0.1' type='video/mp4'/>
                         </video>
                     </div>

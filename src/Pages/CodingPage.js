@@ -7,6 +7,8 @@ import DropDown from './Components/DropDown.js';
 import Footer from './Components/Footer.js';
 import CodeHeader from './Components/Headers/CodeHeader.js';
 
+import HAL9001 from './Components/ProjectDivs/Coding/HAL9001.js';
+import PlanetariumArcadium from './Components/ProjectDivs/Coding/PlanetariumArcadium.js';
 import DigitClassifier from './Components/ProjectDivs/Coding/DigitClassifier.js';
 import StockPricePredictor from './Components/ProjectDivs/Coding/StockPricePredictor.js';
 import Minesweeper from './Components/ProjectDivs/Coding/Minesweeper.js';
@@ -22,6 +24,8 @@ function Coding() {
       <Navbar />
       <DropDown />
       <CodeHeader />
+      <HAL9001 />
+      <PlanetariumArcadium />
       <DigitClassifier />
       <StockPricePredictor />
       <Minesweeper />

@@ -9,7 +9,8 @@ function HAL9001() {
                 <h1 id='ProjectOddCSTitle'>HAL9001</h1>
                 <div id='ProjectOddCSSummary'>
                     <h2 id='ProjectOddCSText'>
-                        Personal assistant and chatbot created using TensorFlow. The model 
+                        Not to be confused with my silly take on HAL9000 found below. A 
+                        personal assistant and chatbot created using TensorFlow. The model 
                         utilizes the “bag-of-words” NLP technique to decipher the command 
                         of the user. Model created using TensorFlow. Data manipulation is 
                         done through the Natural Language Toolkit (NLTK). Incorporates the 

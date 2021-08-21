@@ -89,19 +89,24 @@ function Timeline() {
                         </div>
                         <div class="content" data-aos='zoom-in'>
                             <h3>Started CUNY Hunter College</h3>
-                            <p>GPA: 3.667 <br/>
+                            <p>GPA: 3.674 <br/>
                                 Yalow Honors Scholar <br/>
                                 BA/MA Mathematics Degree <br/>
                                 Bachelor’s: Mathematics <br/>
                                 Minor: Computer Science <br/>
                                 Master’s: Applied Mathematics <br/>
-                                Coursework: Calculus 1-3, Linear Algebra, Abstract Algebra, Numerical Methods, Real Analysis, Functional Analysis, Software Analysis, Statistics, etc.
+                                Coursework: Calculus 1-3, 
+                                Linear Algebra, Abstract Algebra, 
+                                Numerical Methods, Real Analysis, 
+                                Functional Analysis, Software Analysis, 
+                                Statistics, etc.
                             </p>
                             <h3>Extracurriculurs</h3>
-                            <p>South Asian Culture Club (SACC) <br/>
-                                E-Board Member (2020-Current) <br/>
+                            <p>South Asian Culture Club President (2021-Present) <br/>
+                                South Asian Culture Club E-Board Member (2020-2021) <br/>
                                 Hunter Symphony <br/>
-                                Trombonist (2018-2019)</p>
+                                Trombonist (2018-2019)
+                            </p>
                         </div>
                     </li>
 
@@ -122,7 +127,9 @@ function Timeline() {
                         </div>
                         <div class="content" data-aos='zoom-in'>
                             <h3>Started Career at *Insert your company here*</h3>
-                            <p>Data Scientist <br/> Artificial Intelligence Reasercher <br/> Software Engineer <br/>
+                            <p>Data Scientist <br/>
+                                Artificial Intelligence Reasercher <br/>
+                                Software Engineer <br/>
                                 High achiever <br/>
                                 Contributed towards the company <br/>
                                 Brought success to the company

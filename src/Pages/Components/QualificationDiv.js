@@ -25,8 +25,8 @@ function QualificationDiv() {
                     </h2>
                     <div id='qualBTNs'>
                         <a href='/qualifications'><button class="button" data-aos='fade-left'><span>Read More </span></button></a>
-                        <a href='./Images/Resume08_21_21.pdf' target='_blank'><button class="button" data-aos='fade-left' data-aos-delay='50'><span>Resume </span></button></a>
-                        <a href='./Images/Transcript08_19_21.pdf' target='_blank'><button class="button" data-aos='fade-left' data-aos-delay='100'><span>Transcript </span></button></a>
+                        <button class="button" data-aos='fade-left' data-aos-delay='50'><span>Resume </span></button>
+                        <button class="button" data-aos='fade-left' data-aos-delay='100'><span>Transcript </span></button>
                         <a href='https://github.com/Raafi101' target='_blank'><button class="button" data-aos='fade-left' data-aos-delay='150'><span><i class="fab fa-github"></i> GitHub </span></button></a>
                         <a href='https://www.linkedin.com/in/raafi101/' target='_blank'><button class="button" data-aos='fade-left' data-aos-delay='200'><span><i class="fab fa-linkedin"></i> LinkedIn </span></button></a>
                     </div>

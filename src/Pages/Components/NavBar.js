@@ -30,7 +30,7 @@ function Navbar() {
             <div className="nav-container">
                 <nav className='navbar'>
                     <div className='navLogoDiv'>
-                        <a href='/'><img id='websiteLogo' src='./Images/rSquaredLogoFinal.png' /></a>
+                        <a href='/'><img id='websiteLogo' src='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/rSquaredLogoFinal.png' /></a>
                         <a id='logoText' className='gradient-text' href='/'>Overview</a>
                         <a id='logoText' className='gradient-text' href='/qualifications'>Qualifications</a>
                         <a id='logoText' className='gradient-text' href='/portfolio'>Portfolio</a>

@@ -8,6 +8,8 @@ import Contact from './Pages/ContactPage.js';
 import Coding from './Pages/CodingPage.js';
 import CAD from './Pages/CADPage.js';
 import Photoshop from './Pages/PhotoshopPage.js';
+import Transcript from './Pages/TranscriptPage.js';
+import Resume from './Pages/ResumePage.js';
 
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
@@ -23,6 +25,8 @@ function App() {
         <Route exact path='/codingProjects' component={Coding} />
         <Route exact path='/CADProjects' component={CAD} />
         <Route exact path='/PhotoshopProjects' component={Photoshop} />
+        <Route exact path='/Transcript' component={Transcript} />
+        <Route exact path='/Resume' component={Resume} />
       </Switch>
     </Router>
   );

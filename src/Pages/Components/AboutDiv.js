@@ -13,7 +13,7 @@ function AboutDiv() {
             <div id='aboutDiv'>
                 <h1 id='aboutTitle'>Meet Raafi</h1>
                 <div id='aboutSummary'>
-                    <img id='aboutPic' data-aos='fade-right' data-aos-duration='500' src='./Images/WebsitePFP4.png' />
+                    <img id='aboutPic' data-aos='fade-right' data-aos-duration='500' src='./Images/BlackSuitCropped.jpg' />
                     <h2 id='aboutText' data-aos='fade-left' data-aos-duration='500'>
                         Raafi is a native New Yorker. He attended Staten Island Technical High School 
                         and is now a fourth year Yalow Honors student at 

@@ -37,12 +37,13 @@ body {
   }
 
   #aboutPic {
-    width: 20vh;
+    width: 25vh;
     margin-top: 7px;
     margin-right: 20px;
     padding-bottom: 0px;
     float: left;
-    border:rgb(195, 7, 63)
+    border:5px solid;
+    border-color: rgb(195, 7, 63);
   }
 }
 

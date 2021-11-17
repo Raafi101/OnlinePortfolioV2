@@ -22,11 +22,10 @@ function QualificationDiv() {
                         NLTK, and more! Raafi can convey ideas in English, Urdu, Hindi, and Russian. 
                         He possesses knowledge about computer hardware with hands-on computer building 
                         experience. Artistic when it comes to music, design, and film making.
+                        See LinkedIn for resume and transcript.
                     </h2>
                     <div id='qualBTNs'>
                         <a href='/qualifications'><button class="button" data-aos='fade-left'><span>Read More </span></button></a>
-                        <a src="https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/Resume11_16_21.pdf" download><button class="button" data-aos='fade-left' data-aos-delay='50'><span>Resume </span></button></a>
-                        <a src="https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/Transcript11_16_21.pdf" download><button class="button" data-aos='fade-left' data-aos-delay='100'><span>Transcript </span></button></a>
                         <a href='https://github.com/Raafi101' target='_blank'><button class="button" data-aos='fade-left' data-aos-delay='150'><span><i class="fab fa-github"></i> GitHub </span></button></a>
                         <a href='https://www.linkedin.com/in/raafi101/' target='_blank'><button class="button" data-aos='fade-left' data-aos-delay='200'><span><i class="fab fa-linkedin"></i> LinkedIn </span></button></a>
                     </div>

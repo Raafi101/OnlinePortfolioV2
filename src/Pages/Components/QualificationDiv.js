@@ -52,14 +52,14 @@ function QualificationDiv() {
                         <div id="resModal" class="modal">
                             <div class="modal-content">
                                 <span onClick={closeRes} class="close">&times;</span>
-                                <embed src="./Images/Resume123122.pdf" width="100%" height="100%" type="application/pdf"/>
+                                <embed src="https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/Resume123122.pdf" width="100%" height="100%" type="application/pdf"/>
                             </div>
                         </div>
                         <button onClick={openTran} id="myBtn" class="button" data-aos='fade-left' data-aos-delay='200'><span> Transcript </span></button>
                         <div id="tranModal" class="modal">
                             <div class="modal-content">
                                 <span onClick={closeTran} class="close">&times;</span>
-                                <embed src="./Images/Transcript122722.pdf" width="100%" height="100%" type="application/pdf"/>
+                                <embed src="https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/transcript122722.pdf" width="100%" height="100%" type="application/pdf"/>
                             </div>
                         </div>
                     </div>

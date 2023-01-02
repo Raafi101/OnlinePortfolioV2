@@ -15,14 +15,11 @@ function AboutDiv() {
                 <div id='aboutSummary'>
                     <img id='aboutPic' data-aos='fade-right' data-aos-duration='500' src='./Images/BlackSuit1Cropped.jpg' />
                     <h2 id='aboutText' data-aos='fade-left' data-aos-duration='500'>
-                        Raafi is a native New Yorker. He attended Staten Island Technical High School 
-                        and is now a fourth year Yalow Honors student at 
-                        Hunter College. As part of the mathematics BA/MA program, 
-                        he is pursuing a Bachelor's in mathematics and 
-                        a minor in computer science. His Master's is in 
-                        applied mathematics. His interests include math, physics, 
-                        space, technology, chess, and music. Raafi plays three 
-                        instruments: trombone, baritone, and guitar.
+                        Raafi's ultimate goal on life is to push the limits of Humanity.
+                        He is a Native New Yorker who recently complete his Master's in Applied Mathematics from Hunter College.
+                        He was a part of the BA/MA program where he also completed his Bachelor's in Mathematics with a minor in Computer Science.
+                        His interests include math, physics, space and aviation, technology, investing, philosophy, etymology, and WWII/Cold War era history.
+                        In his free time he is either consuming Sci-Fi media, playing chess, or playing the trombone, baritone, or guitar.
                     </h2>
                 </div>
             </div>

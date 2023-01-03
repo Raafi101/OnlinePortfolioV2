@@ -1,14 +1,14 @@
 import React, {Fragment} from 'react';
-import './ProjectOddCS.css';
+import './ProjectEvenCS.css';
 
-function HAL9001() {
+function PortfolioOptimization() {
 
     return (
-        <div id='wholeProjectOddCS'>
-            <div id='ProjectOddCS'>
-                <h1 id='ProjectOddCSTitle'>HAL9001</h1>
-                <div id='ProjectOddCSSummary'>
-                    <h2 id='ProjectOddCSText'>
+        <div id='wholeProjectEvenCS'>
+            <div id='ProjectEvenCS'>
+                <h1 id='ProjectEvenCSTitle'>HAL9001</h1>
+                <div id='ProjectEvenCSSummary'>
+                    <h2 id='ProjectEvenCSText'>
                         Not to be confused with my silly take on HAL9000 found below. A 
                         personal assistant and chatbot created using TensorFlow. The model 
                         utilizes the “bag-of-words” NLP technique to decipher the command 
@@ -40,4 +40,4 @@ function HAL9001() {
     )
 }
 
-export default HAL9001
+export default PortfolioOptimization

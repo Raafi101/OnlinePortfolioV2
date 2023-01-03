@@ -42,7 +42,7 @@ function QualificationDiv() {
                         NLTK, and more! Raafi can convey ideas in English, Urdu, Hindi, and Russian. 
                         He possesses knowledge about computer hardware with hands-on computer building 
                         experience. He is artistic when it comes to music, design, and film making.
-                        See LinkedIn for resume and transcript.
+                        See his LinkedIn, GitHub, resume, and transcript below.
                     </h2>
                     <div id='qualBTNs'>
                         <a href='/qualifications'><button class="button" data-aos='fade-left'><span>Read More </span></button></a>

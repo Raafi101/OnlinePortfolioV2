@@ -1,14 +1,14 @@
 import React, {Fragment} from 'react';
-import './ProjectOddCS.css';
+import './ProjectEvenCS.css';
 
 function FaceID() {
 
     return (
-        <div id='wholeProjectOddCS'>
-            <div id='ProjectOddCS'>
-                <h1 id='ProjectOddCSTitle'>Face Recognition with Siamese Neural Networks</h1>
-                <div id='ProjectOddCSSummary'>
-                    <h2 id='ProjectOddCSText'>
+        <div id='wholeProjectEvenCS'>
+            <div id='ProjectEvenCS'>
+                <h1 id='ProjectEvenCSTitle'>Face Recognition with Siamese Neural Networks</h1>
+                <div id='ProjectEvenCSSummary'>
+                    <h2 id='ProjectEvenCSText'>
                         Took a one-shot learning approach to create a model trained off of more than 
                         10,000 pairs of images that can determine whether a pair of images contain the 
                         face of the same person or not. Used a Siamese network architecture to create 
@@ -23,7 +23,16 @@ function FaceID() {
 
                     <br></br>
 
-                    <a href='https://github.com/Raafi101/HAL9001' target='_blank'>
+                    <a href='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/Siamese+Neural+Networks+for+Face+Recognition.pdf' target='_blank'>
+                        <button id='projectBTN' class="button">
+                            <span>
+                                <i class="fas fa-file"/>
+                                &nbsp;Report
+                            </span>
+                        </button>
+                    </a>
+
+                    <a href='https://github.com/Raafi101/FaceIDWithSiameseNetworks' target='_blank'>
                         <button id='projectBTN' class="button">
                             <span>
                                 <i class="fab fa-github"/>

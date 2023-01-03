@@ -18,6 +18,9 @@ import Pong from './Components/ProjectDivs/Coding/Pong.js';
 import HAL9000 from './Components/ProjectDivs/Coding/HAL9000.js';
 import PortfolioOptimization from './Components/ProjectDivs/Coding/PotfolioOptimization';
 import FaceID from './Components/ProjectDivs/Coding/FaceID';
+import CarClassification from './Components/ProjectDivs/Coding/CarClassification';
+import BayesianLinearRegression from './Components/ProjectDivs/Coding/BayesianLinearRegression';
+import AnAnalysisOfPakistaniHomes from './Components/ProjectDivs/Coding/AnAnalysisOfPakistaniHomes';
 
 function Coding() {
   return (
@@ -28,7 +31,10 @@ function Coding() {
       <CodeHeader />
       <FaceID />
       <PortfolioOptimization />
+      <AnAnalysisOfPakistaniHomes />
       <HAL9001 />
+      <CarClassification />
+      <BayesianLinearRegression />
       <PlanetariumArcadium />
       <DigitClassifier />
       <StockPricePredictor />

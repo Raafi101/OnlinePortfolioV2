@@ -1,14 +1,14 @@
 import React, {Fragment} from 'react';
-import './ProjectOddCS.css';
+import './ProjectEvenCS.css';
 
-function PortfolioOptimization() {
+function CarClassification() {
 
     return (
-        <div id='wholeProjectOddCS'>
-            <div id='ProjectOddCS'>
-                <h1 id='ProjectOddCSTitle'>Optimization in Portfolio Allocation for an Arbitrary Number of Assets</h1>
-                <div id='ProjectOddCSSummary'>
-                    <h2 id='ProjectOddCSText'>
+        <div id='wholeProjectEvenCS'>
+            <div id='ProjectEvenCS'>
+                <h1 id='ProjectEvenCSTitle'>Deep Learning Methods for Classifying Images of Automobiles by Body Style</h1>
+                <div id='ProjectEvenCSSummary'>
+                    <h2 id='ProjectEvenCSText'>
                         Used a gradient based constrained optimization algorithm to find the optimal portfolio 
                         allocation given n stocks. Descent direction determined using “generalized gradients”. 
                         Constraints were 1) the sum of allocations must equal total capital available and 
@@ -20,7 +20,7 @@ function PortfolioOptimization() {
 
                     <br></br>
 
-                    <a href='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/PortfolioOptimization.pdf' target='_blank'>
+                    <a href='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/DeepLearningMethodsForAutomobiles.pdf' target='_blank'>
                         <button id='projectBTN' class="button">
                             <span>
                                 <i class="fas fa-file"/>
@@ -29,7 +29,7 @@ function PortfolioOptimization() {
                         </button>
                     </a>
 
-                    <a href='https://github.com/Raafi101/HAL9001' target='_blank'>
+                    <a href='https://github.com/Raafi101/Deep-Learning-Methods-for-Classifying-Automobiles/blob/main/DeepLearningMethodsAutomobiles.ipynb' target='_blank'>
                         <button id='projectBTN' class="button">
                             <span>
                                 <i class="fab fa-github"/>
@@ -43,4 +43,4 @@ function PortfolioOptimization() {
     )
 }
 
-export default PortfolioOptimization
+export default CarClassification

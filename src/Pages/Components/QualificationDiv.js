@@ -8,26 +8,6 @@ AOS.init();
 
 function QualificationDiv() {
 
-    // When the user clicks on the button, open the modal
-    function openRes() {
-        document.getElementById('resModal').style.display = "block";
-    }
-
-    // When the user clicks on <span> (x), close the modal
-    function closeRes() {
-        document.getElementById('resModal').style.display = "none";
-    }
-
-    // When the user clicks on the button, open the modal
-    function openTran() {
-        document.getElementById('tranModal').style.display = "block";
-    }
-
-    // When the user clicks on <span> (x), close the modal
-    function closeTran() {
-        document.getElementById('tranModal').style.display = "none";
-    }
-
     return (
         <div id='wholeQualDiv'>
             <div id='QualificationDiv'>
@@ -48,8 +28,8 @@ function QualificationDiv() {
                         <a href='/qualifications'><button class="button" data-aos='fade-left'><span>Read More </span></button></a>
                         <a href='https://github.com/Raafi101' target='_blank'><button class="button" data-aos='fade-left' data-aos-delay='150'><span><i class="fab fa-github"></i> GitHub </span></button></a>
                         <a href='https://www.linkedin.com/in/raafi101/' target='_blank'><button class="button" data-aos='fade-left' data-aos-delay='200'><span><i class="fab fa-linkedin"></i> LinkedIn </span></button></a>
-                        <a href='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/resume123122.pdf' target='_blank'><button class="button" data-aos='fade-left' data-aos-delay='200'><span> Resume </span></button></a>
-                        <a href='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/transcript122722.pdf' target='_blank'><button class="button" data-aos='fade-left' data-aos-delay='200'><span> Transcript </span></button></a>
+                        <a href='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/resume123122.pdf' target='_blank'><button class="button" data-aos='fade-left' data-aos-delay='200'><span><i class="fas fa-id-card"></i> Resume </span></button></a>
+                        <a href='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/transcript122722.pdf' target='_blank'><button class="button" data-aos='fade-left' data-aos-delay='200'><span><i class="fas fa-file"></i> Transcript </span></button></a>
                     </div>
                 </div>
             </div>

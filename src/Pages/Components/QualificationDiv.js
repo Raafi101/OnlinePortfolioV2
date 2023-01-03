@@ -48,20 +48,8 @@ function QualificationDiv() {
                         <a href='/qualifications'><button class="button" data-aos='fade-left'><span>Read More </span></button></a>
                         <a href='https://github.com/Raafi101' target='_blank'><button class="button" data-aos='fade-left' data-aos-delay='150'><span><i class="fab fa-github"></i> GitHub </span></button></a>
                         <a href='https://www.linkedin.com/in/raafi101/' target='_blank'><button class="button" data-aos='fade-left' data-aos-delay='200'><span><i class="fab fa-linkedin"></i> LinkedIn </span></button></a>
-                        <button onClick={openRes} id="myBtn" class="button" data-aos='fade-left' data-aos-delay='200'><span> Resume </span></button>
-                        <div id="resModal" class="modal">
-                            <div class="modal-content">
-                                <span onClick={closeRes} class="close">&times;</span>
-                                <embed src="https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/Resume123122.pdf" width="100%" height="100%" type="application/pdf"/>
-                            </div>
-                        </div>
-                        <button onClick={openTran} id="myBtn" class="button" data-aos='fade-left' data-aos-delay='200'><span> Transcript </span></button>
-                        <div id="tranModal" class="modal">
-                            <div class="modal-content">
-                                <span onClick={closeTran} class="close">&times;</span>
-                                <embed src="https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/transcript122722.pdf" width="100%" height="100%" type="application/pdf"/>
-                            </div>
-                        </div>
+                        <a href='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/resume123122.pdf' target='_blank'><button class="button" data-aos='fade-left' data-aos-delay='200'><span> Resume </span></button></a>
+                        <a href='https://portfoliostorage.s3.us-east-2.amazonaws.com/Images/transcript122722.pdf' target='_blank'><button class="button" data-aos='fade-left' data-aos-delay='200'><span> Transcript </span></button></a>
                     </div>
                 </div>
             </div>

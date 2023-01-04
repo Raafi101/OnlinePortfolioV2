@@ -31,7 +31,7 @@ function PortfolioOptimization() {
                         </button>
                     </a>
 
-                    <a href='https://github.com/Raafi101/HAL9001' target='_blank'>
+                    <a href='https://github.com/Raafi101/PortfolioOptimization' target='_blank'>
                         <button id='projectBTN' class="button">
                             <span>
                                 <i class="fab fa-github"/>

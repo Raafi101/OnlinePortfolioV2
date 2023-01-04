@@ -14,15 +14,24 @@ function PortfolioDiv() {
                 <h1 id='PortfolioTitle'>Raafi's Portfolio</h1>
                 <div id='PortfolioSummary'>
                     <h2 id='PortfolioText' data-aos='zoom-in'>
-                        Raafi works on many projects that have to do with programming, 
-                        engineering design, and visual design. A notable project 
-                        is his Personal Assistant that can recognize human voice and perform tasks 
-                        such as controlling music on spotify, playing a video on youtube, searching things up, 
-                        and looking up something on Wikipedia. This project uses natural language processing 
-                        to accurately understand the users intention, and then performs that task. 
-                        Another notable project is Planetarium Arcadium, an online orrery where the user can 
-                        search up planets stored in a PostgreSQL database and visualize them 
-                        on the screen.
+                        Raafi is constantly learning, experimenting, and making new projects.
+                        Most of his recent projects are related to machine learning and artificial 
+                        intelligence. A notable project of his is the recreation of FaceID. 
+                        By using a one-shot learning approach, he created a model trained off 
+                        of more than 10,000 pairs of images that can determine whether a pair 
+                        of images contain the face of the same person or not. 
+                        <br></br><br></br>
+                        Raafi also has experience in NLP as seen in his Personal Assistant that can recognize 
+                        human voice and perform tasks such as controlling music on spotify, playing 
+                        a video on youtube, searching things up, and looking up something on Wikipedia. 
+                        <br></br><br></br>
+                        Another notable project is Planetarium Arcadium, an online orrery, built using the
+                        PERN stack, where users can search up planets stored in a PostgreSQL database and 
+                        visualize them on the screen.
+                        <br></br><br></br>
+                        Raafi's love of finance and investing has also led him to explore financial models. 
+                        In one project, he explores portfolio allocation through the means of stochastic optimization.
+                        This is built on the works of optimization, portfolio theory, and the Markowitz mean-variance model.
                     </h2>
                     <div class="gallery-image">
                         <a href='/codingProjects'>

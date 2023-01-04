@@ -9,12 +9,14 @@ function PortfolioOptimization() {
                 <h1 id='ProjectOddCSTitle'>Optimization in Portfolio Allocation for an Arbitrary Number of Assets</h1>
                 <div id='ProjectOddCSSummary'>
                     <h2 id='ProjectOddCSText'>
-                        Used a gradient based constrained optimization algorithm to find the optimal portfolio 
+                        Worked with a team of 4 people total to find methods to optimize a portfolio with an arbitrary number
+                        of assets. Used a gradient based constrained optimization algorithm to find the optimal portfolio 
                         allocation given n stocks. Descent direction determined using “generalized gradients”. 
                         Constraints were 1) the sum of allocations must equal total capital available and 
                         2) only long positions are allowed.
                         <br></br><br></br>
-                        What I Learned: How to generalize gradient descent when a function isn't known
+                        What I Learned: Learned about the Markowitz mean-variance model and the effiecient frontier curve,
+                        how to generalize gradient descent when a function isn't known
                         and only noisy observations are available, how to calculate generalized gradients.
                     </h2>
 

@@ -9,13 +9,13 @@ function CarClassification() {
                 <h1 id='ProjectEvenCSTitle'>Deep Learning Methods for Classifying Images of Automobiles by Body Style</h1>
                 <div id='ProjectEvenCSSummary'>
                     <h2 id='ProjectEvenCSText'>
-                        Used a gradient based constrained optimization algorithm to find the optimal portfolio 
-                        allocation given n stocks. Descent direction determined using “generalized gradients”. 
-                        Constraints were 1) the sum of allocations must equal total capital available and 
-                        2) only long positions are allowed.
+                        Used standard machine learning algorithms such as logistic regression and random forest, followed by many
+                        deep learning models such as a fully connected network, convolusional neural network, and transfer learning using ResNet50.
+                        Compared all of the models and concluded the ResNet50 model performed best with a test accuracy of 76.3%. Data set included
+                        6 types of vehicle body styles: multi-purpose vehicles, sports utility vehicles, convertibles, pickups, sedans, and station wagons.
                         <br></br><br></br>
-                        What I Learned: How to generalize gradient descent when a function isn't known
-                        and only noisy observations are available, how to calculate generalized gradients.
+                        What I Learned: Computer vision best practices, such as the preprocessing of images, how to use trained models
+                        through the use of transfer learning.
                     </h2>
 
                     <br></br>
@@ -29,7 +29,7 @@ function CarClassification() {
                         </button>
                     </a>
 
-                    <a href='https://github.com/Raafi101/Deep-Learning-Methods-for-Classifying-Automobiles/blob/main/DeepLearningMethodsAutomobiles.ipynb' target='_blank'>
+                    <a href='https://github.com/Raafi101/DeepLearningMethodsforClassifyingAutomobiles' target='_blank'>
                         <button id='projectBTN' class="button">
                             <span>
                                 <i class="fab fa-github"/>

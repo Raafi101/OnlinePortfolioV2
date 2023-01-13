@@ -21,6 +21,7 @@ import FaceID from './Components/ProjectDivs/Coding/FaceID';
 import CarClassification from './Components/ProjectDivs/Coding/CarClassification';
 import BayesianLinearRegression from './Components/ProjectDivs/Coding/BayesianLinearRegression';
 import AnAnalysisOfPakistaniHomes from './Components/ProjectDivs/Coding/AnAnalysisOfPakistaniHomes';
+import AR from './Components/ProjectDivs/Coding/AR';
 
 function Coding() {
   return (
@@ -29,6 +30,7 @@ function Coding() {
       <Navbar />
       <DropDown />
       <CodeHeader />
+      <AR />
       <FaceID />
       <PortfolioOptimization />
       <AnAnalysisOfPakistaniHomes />

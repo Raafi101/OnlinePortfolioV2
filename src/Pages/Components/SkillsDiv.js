@@ -134,16 +134,28 @@ function SkillsDiv() {
                             <h2 id='TechText' data-aos='fade-right'>Matplotlib,</h2> 
                             <h2 id='TechText' data-aos='fade-right'>Pandas,</h2> 
                             <h2 id='TechText' data-aos='fade-right'>Scikit-Learn,</h2> 
+                            <h2 id='TechText' data-aos='fade-right'>SciPy,</h2>
                             <h2 id='TechText' data-aos='fade-right'>OpenCV,</h2> 
                             <h2 id='TechText' data-aos='fade-right'>Keras,</h2> 
                             <h2 id='TechText' data-aos='fade-right'>NLTK,</h2> 
                             <h2 id='TechText' data-aos='fade-right'>Flask,</h2> 
-                            <h2 id='TechText' data-aos='fade-right'>Tkinter,</h2> 
+                            <h2 id='TechText' data-aos='fade-right'>Tkinter,</h2>
+                            <h2 id='TechText' data-aos='fade-right'>PyMC3,</h2> 
+                            <h2 id='TechText' data-aos='fade-right'>Tableau,</h2> 
                             <h2 id='TechText' data-aos='fade-right'>MySQL,</h2> 
                             <h2 id='TechText' data-aos='fade-right'>PostgreSQL,</h2> 
+                            <h2 id='TechText' data-aos='fade-right'>Vertica,</h2> 
+                            <h2 id='TechText' data-aos='fade-right'>Firebase,</h2> 
+                            <h2 id='TechText' data-aos='fade-right'>DbVisualizer,</h2> 
                             <h2 id='TechText' data-aos='fade-right'>React.js,</h2> 
                             <h2 id='TechText' data-aos='fade-right'>Node.js,</h2> 
                             <h2 id='TechText' data-aos='fade-right'>Express.js,</h2> 
+                            <h2 id='TechText' data-aos='fade-right'>GCP AutoML Vison/Tables/BigQuery/Vertex AI/Cloud Storage,</h2> 
+                            <h2 id='TechText' data-aos='fade-right'>AWS EC2/Amplify/RDS/S3,</h2> 
+                            <h2 id='TechText' data-aos='fade-right'>Linux,</h2> 
+                            <h2 id='TechText' data-aos='fade-right'>Jira,</h2> 
+                            <h2 id='TechText' data-aos='fade-right'>Confluence,</h2> 
+                            <h2 id='TechText' data-aos='fade-right'>Asana,</h2> 
                             <h2 id='TechText' data-aos='fade-right'>Visual Studio Code</h2>
                         </div>
                     </div>

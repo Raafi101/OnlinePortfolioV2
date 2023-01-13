@@ -1,0 +1,154 @@
+#company {
+  width: 200px;
+}
+
+@media screen and (min-width: 1300px) {
+  .timeline {
+    padding-top: 50px;
+    padding-bottom: 0px;
+    position: relative;
+    margin: auto;
+    margin-bottom: 50px;
+    width: 70%;
+    background-color: white;
+  }
+
+  .timeline ul li {
+    margin-bottom: 50px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .point {
+    min-width: 20px;
+    height: 20px;
+    background-color: rgb(195, 7, 63);
+    border-radius: 100%;
+    z-index: 2;
+    border: 3px black solid;
+    position: relative;
+    left: 1px;
+  }
+  
+  .timeline ul li .content {
+    width: 1000%;
+    border: 3px black solid;
+    margin: 0 20px;
+    border-radius: 10px;
+  }
+  
+  .timeline ul li .date {
+    padding: 0 20px;
+    font-weight: normal;
+  }
+  
+  .timeline ul li .date h4 {
+    background-color: #333333;
+    width: 100px;
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+  
+  .timeline ul li .content h3 {
+    padding: 10px 20px;
+    background-color: #333333;
+    margin-bottom: 0;
+    color: white;
+    text-align: center;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+  }
+  
+  .timeline ul li .content p {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 10px;
+    background-color: white;
+    margin-top: 0;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .timeline ul li:nth-child() .date h4 {
+    float: right
+  }
+
+  .timeline::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 3px;
+    left: 190px;
+    background-color: #333333;
+    transform: translateY(-25px);
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .timeline {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    margin-bottom: 50px;
+    width: 80%;
+    left: 7%;
+  }
+
+  .timeline ul li {
+    margin-bottom: 50px;
+    list-style-type: none;
+    display: inline;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .timeline ul li .content {
+    width: 100%;
+    border: 3px black solid;
+    border-radius: 10px;
+  }
+  
+  .timeline ul li .date {
+    padding-top: 20px;
+    font-weight: normal;
+  }
+  
+  .timeline ul li .date h4 {
+    background-color: #333333;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+  
+  .timeline ul li .content h3 {
+    padding: 10px 20px;
+    background-color: #333333;
+    margin-bottom: 0;
+    text-align: center;
+    color: white;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+  }
+  
+  .timeline ul li .content p {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    background-color: white;
+    margin-top: 0;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .timeline ul li:nth-child() .date h4 {
+    float: center
+  }
+}

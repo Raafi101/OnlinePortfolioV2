@@ -3,7 +3,7 @@ import './QualificationsPage.css';
 import Navbar from './Components/NavBar.js';
 import DropDown from './Components/DropDown.js';
 import Footer from './Components/Footer.js';
-import Timeline from './Components/Timeline.js';
+import Timeline2 from './Components/Timeline2.js';
 import QualHeader from './Components/Headers/QualHeader.js';
 import SkillsDiv from './Components/SkillsDiv.js';
 import AddInfoDiv from './Components/AddInfoDiv';
@@ -15,7 +15,7 @@ function Qualifications() {
       <Navbar />
       <DropDown />
       <QualHeader />
-      <Timeline />
+      <Timeline2 />
       <SkillsDiv />
       <AddInfoDiv />
       <Footer />

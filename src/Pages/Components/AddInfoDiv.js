@@ -46,14 +46,16 @@ function AddInfoDiv() {
                         <div id='InterestList'>
                             <h2 id='InterestText' data-aos='fade-right'>Chess,</h2> 
                             <h2 id='InterestText' data-aos='fade-right'>Math,</h2> 
+                            <h2 id='InterestText' data-aos='fade-right'>Physics,</h2> 
                             <h2 id='InterestText' data-aos='fade-right'>Music,</h2>
-                            <h2 id='InterestText' data-aos='fade-right'>Space,</h2> 
-                            <h2 id='InterestText' data-aos='fade-right'>Futurology,</h2> 
+                            <h2 id='InterestText' data-aos='fade-right'>Space and Aviation,</h2> 
+                            <h2 id='InterestText' data-aos='fade-right'>Technology,</h2> 
                             <h2 id='InterestText' data-aos='fade-right'>Investing,</h2> 
                             <h2 id='InterestText' data-aos='fade-right'>Exercising,</h2> 
                             <h2 id='InterestText' data-aos='fade-right'>Philosophy,</h2> 
-                            <h2 id='InterestText' data-aos='fade-right'>Metaphysics,</h2> 
-                            <h2 id='InterestText' data-aos='fade-right'>Etymology</h2>
+                            <h2 id='InterestText' data-aos='fade-right'>Etymology,</h2>
+                            <h2 id='InterestText' data-aos='fade-right'>Sci-Fi,</h2> 
+                            <h2 id='InterestText' data-aos='fade-right'>WWII/Cold War era history</h2> 
                         </div>
                     </div>
                 </div>

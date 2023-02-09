@@ -67,7 +67,7 @@ function Timeline2() {
                         <p>Major GPA: 3.75, Cumulative GPA: 3.696<br></br>
                             Yalow Honors Scholar, Dean's List<br></br>
                             BA/MA Mathematics Degree<br></br>
-                            Master’s: Applied Mathematics<br></br>
+                            Master’s: Statistics & Applied Mathematics<br></br>
                             Bachelor’s: Mathematics<br></br>
                             Minor: Computer Science<br></br>
                             <br></br> <h4>Coursework</h4>

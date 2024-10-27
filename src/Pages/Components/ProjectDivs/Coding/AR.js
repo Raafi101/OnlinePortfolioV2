@@ -10,8 +10,8 @@ function AR() {
                 <div id='ProjectOddCSSummary'>
                     <h2 id='ProjectOddCSText'>
                         Currently brainstorming possible projects <br></br>
-                        ● Augmented reality apps for smart glasses<br></br>
-                        ● Investment property profitabilty analyzer
+                        • Augmented reality apps for smart glasses<br></br>
+                        • Investment property profitabilty analyzer
                     </h2>
 
                     <br></br>

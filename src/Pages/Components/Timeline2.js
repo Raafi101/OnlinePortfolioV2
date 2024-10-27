@@ -48,9 +48,9 @@ function Timeline2() {
                     <div class="point"></div>
                     <div class="content">
                         <h3>Tutor @ Bright Leadership Academy</h3>
-                        <p>● Designed lesson plans tailored to students needs<br></br>
-                        ● Taught Math, English, and Science to students of grades 3-8<br></br>
-                        ● Prepared middle schoolers for the Specialized High School Admissions Test (SHSAT)<br></br>
+                        <p>• Designed lesson plans tailored to students needs<br></br>
+                        • Taught Math, English, and Science to students of grades 3-8<br></br>
+                        • Prepared middle schoolers for the Specialized High School Admissions Test (SHSAT)<br></br>
                             <br></br>Ended: June 2017 
                             <br></br>Time Spent: 1 year and 10 months</p>
                     </div>
@@ -63,8 +63,8 @@ function Timeline2() {
                     <div class="point"></div>
                     <div class="content">
                         <h3>Sales Associate @ Five Eleven Deli and Grocery</h3>
-                        <p>● Managed the cash register and customer interactions<br></br>
-                        ● Entrusted to mediate business-bank transactions<br></br>
+                        <p>• Managed the cash register and customer interactions<br></br>
+                        • Entrusted to mediate business-bank transactions<br></br>
                             <br></br>Ended: August 2021
                             <br></br>Time Spent: 4 years and 3 months</p>
                     </div>
@@ -121,8 +121,8 @@ function Timeline2() {
                         data analytics panels through best engineering practices.<br></br><br></br>
 
                         Here are a few highlighted contributions:<br></br>
-                        ● Succeeded in increasing and tracking customer conversion rate by producing Shopify apps.
-                        ● Developed database schemas to illustrate data flow, usage, and acquisition in a clear manner<br></br>
+                        • Succeeded in increasing and tracking customer conversion rate by producing Shopify apps.
+                        • Developed database schemas to illustrate data flow, usage, and acquisition in a clear manner<br></br>
                             <br></br>Ended: May 2022
                             <br></br>Time Spent: 7 months</p>
                     </div>
@@ -144,7 +144,7 @@ function Timeline2() {
                         findings to team members. Adhered to HIPAA privacy standards while handling data.<br></br><br></br>
 
                         One of my key achievements:<br></br>
-                        ● Devised a medical doctor and nurse verification system by utilizing Google Cloud Platform and more than 
+                        • Devised a medical doctor and nurse verification system by utilizing Google Cloud Platform and more than 
                         30,000 data points provided by data scraping contractors.<br></br>
                             <br></br>Ended: August 2022
                             <br></br>Time Spent: 3 months</p>
@@ -174,11 +174,11 @@ function Timeline2() {
                     <div class="content">
                         <h3>Data Scientist @ Fiserv</h3>
                         <p><b>Tech Stack: AWS SageMaker, AWS S3, AWS Lambda, Palantir Foundry, FICO Blaze Advisor, JupyterLab, Snowflake, Scikit-Learn, SAS, Excel, Power BI</b><br></br>
-                            ● Led the development of an XGBoost model used to prioritize and automate the decisioning of fraud and credit alerts. Significantly reduced analyst alert queue volume (more than $100,000 worth of work annually)<br></br>
-                            ● Supported the migration from legacy systems (FICO Blaze Advisor) to modern machine learning environments (AWS)<br></br>
-                            ● Created and maintained industry based statistics on merchant processing<br></br>
-                            ● Crafted new rule based alerts to increase alert coverage<br></br>
-                            ● Augmented the standing merchant transaction limit assigning logic to decrease alert volume and increase bad capture rate<br></br>
+                            • Led the development of an XGBoost model used to prioritize and automate the decisioning of fraud and credit alerts. Significantly reduced analyst alert queue volume (more than $100,000 worth of work annually)<br></br>
+                            • Supported the migration from legacy systems (FICO Blaze Advisor) to modern machine learning environments (AWS)<br></br>
+                            • Created and maintained industry based statistics on merchant processing<br></br>
+                            • Crafted new rule based alerts to increase alert coverage<br></br>
+                            • Augmented the standing merchant transaction limit assigning logic to decrease alert volume and increase bad capture rate<br></br>
                             <br></br>Ongoing
                             <br></br>Time Spent to Date:&nbsp;
                             {years} {year_string} and {months} {month_string}

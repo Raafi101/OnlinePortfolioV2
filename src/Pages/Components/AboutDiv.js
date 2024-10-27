@@ -13,7 +13,7 @@ function AboutDiv() {
             <div id='aboutDiv'>
                 <h1 id='aboutTitle'>Meet Raafi</h1>
                 <div id='aboutSummary'>
-                    <img id='aboutPic' data-aos='fade-right' data-aos-duration='500' src='./Images/washingtonDC.JPG' />
+                    <img id='aboutPic' data-aos='fade-right' data-aos-duration='500' src='./Images/washingtonDC.JPG'/>
                     <h2 id='aboutText' data-aos='fade-left' data-aos-duration='500'>
                         Raafi's ultimate goal in life is to push the limits of humanity.
                         He is a Native New Yorker who recently completed his Master's in Statistics & Applied Mathematics from Hunter College.

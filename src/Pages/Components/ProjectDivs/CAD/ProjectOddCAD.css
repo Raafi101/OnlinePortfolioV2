@@ -58,10 +58,19 @@
     margin-bottom: 20px;
   }
 
+  #ProjectOddCADTitle {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 8vw;
+    z-index: -2;
+    color: rgb(26, 26, 29);
+  }
+
   #ProjectOddCADText {
     margin: auto;
     width: 100%;
-    font-size: 2.5vh;
+    font-size: 5vw;
     text-align: center;
     color: rgb(26, 26, 29);
   }

@@ -80,10 +80,19 @@
     padding-bottom: 30px;
   }
 
+  #PortfolioTitle {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 8vw;
+    z-index: -2;
+    color: rgb(26, 26, 29);
+  }
+
   #PortfolioText {
     margin: auto;
     width: 100%;
-    font-size: 2.5vh;
+    font-size: 5vw;
     text-align: center;
     color: rgb(26, 26, 29);
   }
@@ -103,9 +112,9 @@
     background: linear-gradient(90deg, rgb(195, 7, 63), #ff2a55);
     border: none;
     color: #ffffff;
-    font-size: 2.5vh;
+    font-size: 5vw;
     padding: 20px;
-    width: 20vh;
+    width: 50vw;
     transition: all 0.5s;
     cursor: pointer;
     margin-top: 5px;
@@ -135,7 +144,7 @@
     margin: auto;
     margin-top: 70px;
     opacity: 1;
-    font-size: 8vw;
+    font-size: 200%;
     color: white;
     font-weight: bold;
     text-shadow: 0 0 20px black, 0 0 20px black, 0 0 20px black, 0 0 20px black;

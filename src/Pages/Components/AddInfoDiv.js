@@ -14,7 +14,7 @@ function AddInfoDiv() {
                 <h1 id='AddInfoTitle'>Additional Information</h1>
                 <div id='AddInfoSummary'>
                     
-                    <h1 id='SkillsSub'>Certifications and Honors</h1>
+                    <h1 id='AddInfoSub'>Certifications and Honors</h1>
                     <div id='bloc'>
                         <div id='miscList'>
                             <h2 id='MiscText1' data-aos='fade-right'>Yalow Honors Student</h2>

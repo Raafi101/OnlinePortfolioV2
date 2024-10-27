@@ -153,10 +153,19 @@
     padding-bottom: 30px;
   }
 
+  #SkillsTitle {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    font-size: 10vw;
+    z-index: -2;
+    color: white;
+  }
+
   #SkillsText {
     margin: auto;
     width: 100%;
-    font-size: 2.5vh;
+    font-size: 5vw;
     text-align: center;
   }
 
@@ -164,9 +173,26 @@
     margin: auto;
     width: 100%;
     margin-top: 40px;
-    font-size: 5vh;
+    font-size: 8vw;
     text-align: center;
     color: rgb(195, 7, 63);
+  }
+
+  #TechText {
+    display: inline-block;
+    color: white;
+    margin-right: 15px;
+    font-size: 5vw;
+  }
+  
+  #MiscText {
+    color: white;
+    margin-right: 15px;
+    margin-top: 15px;
+    float: left;
+    font-size: 5vw;
+    width: 100%;
+    text-align: center;
   }
 
   #qualBTNs {
@@ -184,9 +210,9 @@
     background: linear-gradient(90deg, rgb(195, 7, 63), #ff2a55);
     border: none;
     color: #ffffff;
-    font-size: 2.5vh;
+    font-size: 5vw;
     padding: 20px;
-    width: 20vh;
+    width: 8vw;
     transition: all 0.5s;
     cursor: pointer;
     margin-top: 5px;

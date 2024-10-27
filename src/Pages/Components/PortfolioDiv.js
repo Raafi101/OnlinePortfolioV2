@@ -17,16 +17,18 @@ function PortfolioDiv() {
                         Raafi is constantly learning, experimenting, and making new projects.
                         Most of his recent projects are related to machine learning and artificial 
                         intelligence. A notable project of his is the recreation of FaceID. 
-                        By using a one-shot learning approach, he created a model trained off 
-                        of more than 10,000 pairs of images that can determine whether a pair 
+                        By using a one-shot learning approach, he created a model trained on 
+                        more than 10,000 pairs of images. The model can determine whether a pair 
                         of images contain the face of the same person or not. 
                         <br></br><br></br>
                         Raafi also has experience in NLP as seen in his Personal Assistant that can recognize 
                         human voice and perform tasks such as controlling music on spotify, playing 
                         a video on youtube, searching things up, and looking up something on Wikipedia. 
                         <br></br><br></br>
-                        Another notable project is Planetarium Arcadium, an online orrery, built using the
-                        PERN stack, where users can search up planets stored in a PostgreSQL database and 
+                        Another notable project is&nbsp;
+                        <a id='footerExLink' href='https://planetariumarcadium.com/' target='_blank'>Planetarium Arcadium</a>, an online&nbsp;
+                        <a id='footerExLink' href='https://en.wikipedia.org/wiki/Orrery' target='_blank'>orrery</a>
+                        , built using the PERN stack, where users can search up planets stored in a PostgreSQL database and 
                         visualize them on the screen.
                         <br></br><br></br>
                         Raafi's love of finance and investing has also led him to explore financial models. 

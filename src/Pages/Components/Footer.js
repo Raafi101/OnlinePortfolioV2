@@ -24,7 +24,7 @@ function Footer() {
 
                     <div id='inlineFooter'>
                         <h2 id='FooterText'>
-                        <i class="fas fa-phone-alt"></i> : 1 (646) 334-1690
+                        <i class="fas fa-phone-alt"></i> : Contact for more details
                         </h2>
                         <a id='footerLink' className='gradient-text1' href='/qualifications'>Qualifications</a>
                     </div>

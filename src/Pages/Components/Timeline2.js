@@ -8,6 +8,24 @@ AOS.init();
 
 function Timeline2() {
 
+    const start_fiserv = new Date("2023-06-01");
+    const curr_dt = new Date();
+    const date_diff = curr_dt.getTime() - start_fiserv.getTime();
+    const years = Math.floor(date_diff / (1000 * 60 * 60 * 24 * 365))
+    const months = Math.floor(date_diff / (1000 * 60 * 60 * 24 * 30)) % 12
+    let year_string = 'year'
+    let month_string = 'month'
+
+    if (years > 1) {
+        year_string = 'years';
+    };
+
+    if (months > 1) {
+        month_string = 'months';
+    };
+
+    console.log(date_diff);
+
     return (
         <div class="timeline">
             <ul>
@@ -30,8 +48,11 @@ function Timeline2() {
                     <div class="point"></div>
                     <div class="content">
                         <h3>Tutor @ Bright Leadership Academy</h3>
-                        <p>Designed lesson plans and taught Math, English, and Science to students of grades 3-8.
-                            Prepared middle schoolers for the Specialized High Schools Admissions Test (SHSAT). Ended June 2017 and spent a total of 1 year and 10 months.</p>
+                        <p>● Designed lesson plans tailored to students needs<br></br>
+                        ● Taught Math, English, and Science to students of grades 3-8<br></br>
+                        ● Prepared middle schoolers for the Specialized High School Admissions Test (SHSAT)<br></br>
+                            <br></br>Ended: June 2017 
+                            <br></br>Time Spent: 1 year and 10 months</p>
                     </div>
                 </li>
 
@@ -42,7 +63,10 @@ function Timeline2() {
                     <div class="point"></div>
                     <div class="content">
                         <h3>Sales Associate @ Five Eleven Deli and Grocery</h3>
-                        <p>Entrusted to mediate business-bank transactions. Ended August 2021 and spent a total of 4 years and 3 months.</p>
+                        <p>● Managed the cash register and customer interactions<br></br>
+                        ● Entrusted to mediate business-bank transactions<br></br>
+                            <br></br>Ended: August 2021
+                            <br></br>Time Spent: 4 years and 3 months</p>
                     </div>
                 </li>
 
@@ -89,11 +113,18 @@ function Timeline2() {
                     <div class="point"></div>
                     <div class="content">
                         <h3>Software Engineer @ Convertli</h3>
-                        <p><b>Tech Stack: React, Node, Express, GraphQL, TypeScript</b><br></br>
-                            ● Produced Shopify apps aimed at increasing and tracking customer conversion rate<br></br>
-                            ● Created and maintained product sales and views NoSQL Firebase databases<br></br>
-                            ● Designed the data analytics portions of the merchant facing admin panel<br></br><br></br>
-                            Ended May 2022 and spent a total of 7 months.</p>
+                        <p><b>Tech Stack: React, Node, Express, GraphQL, TypeScript</b><br></br><br></br>
+                        Within this job role, I implemented a meticulous approach to creating and maintaining product sales 
+                        and views NoSQL Firebase databases.<br></br><br></br>
+                        
+                        I was also responsible for allowing users to track conversions and sales by designing merchant-facing 
+                        data analytics panels through best engineering practices.<br></br><br></br>
+
+                        Here are a few highlighted contributions:<br></br>
+                        ● Succeeded in increasing and tracking customer conversion rate by producing Shopify apps.
+                        ● Developed database schemas to illustrate data flow, usage, and acquisition in a clear manner<br></br>
+                            <br></br>Ended: May 2022
+                            <br></br>Time Spent: 7 months</p>
                     </div>
                 </li>
 
@@ -104,11 +135,19 @@ function Timeline2() {
                     <div class="point"></div>
                     <div class="content">
                         <h3>Data Science Intern @ WebMD</h3>
-                        <p><b>Tech Stack: Vertica, GCP Big Query, GCP AutoML, Scikit-Learn, JupyterLab, Tableau</b><br></br>
-                            ● Developed a medical doctor verification system and a nurse verification system using Google Cloud Provider AutoML Vision and more than 30,000 data points provided by data scraping contractors<br></br>
-                            ● Provided insights for clients by determining which doctors were the best candidates for drug advertisement through exploratory data analysis, linear regression, and k-nearest neighbors regression<br></br>
-                            ● Created lookalike audiences using k-means clustering using the elbow curve method to find the optimal number of clusters, visualized results in Tableau to clearly explain findings to team members<br></br><br></br>
-                            Ended August 2022 and spent a total of 3 months.</p>
+                        <p><b>Tech Stack: Vertica, GCP Big Query, GCP AutoML, Scikit-Learn, JupyterLab, Tableau</b><br></br><br></br>
+                        As an Intern, I provided insights for clients by determining the best doctors for drug advertisement through 
+                        linear regression, exploratory data analysis, and k-nearest neighbors regression.<br></br><br></br>
+
+                        My abilities comprised developing lookalike audiences using k-means clustering and the elbow curve method to 
+                        find an optimal number of clusters as well as visualizing the results in Tableau in order to clearly explain 
+                        findings to team members. Adhered to HIPAA privacy standards while handling data.<br></br><br></br>
+
+                        One of my key achievements:<br></br>
+                        ● Devised a medical doctor and nurse verification system by utilizing Google Cloud Platform and more than 
+                        30,000 data points provided by data scraping contractors.<br></br>
+                            <br></br>Ended: August 2022
+                            <br></br>Time Spent: 3 months</p>
                     </div>
                 </li>
 
@@ -119,9 +158,8 @@ function Timeline2() {
                     <div class="point"></div>
                     <div class="content">
                         <h3>Graduated CUNY Hunter College</h3>
-                        <p>Major GPA: 3.75, Cumulative GPA: 3.696<br></br>
+                        <p>Major GPA: 3.75, Cumulative GPA: 3.7<br></br>
                             Yalow Honors Scholar, Dean's List<br></br>
-                            BA/MA Mathematics Degree<br></br>
                             Master’s: Statistics & Applied Mathematics<br></br>
                             Bachelor’s: Mathematics<br></br>
                             Minor: Computer Science</p>
@@ -130,21 +168,21 @@ function Timeline2() {
 
                 <li>
                     <div class="date">
-                        <h4>Near Future</h4>
+                        <h4>Jun. 2023</h4>
                     </div>
                     <div class="point"></div>
                     <div class="content">
-                        <h3><select name="position" id="position" required>
-                                <option value="" disabled selected hidden>Position</option>
-                                <option value="ML Engineer">ML Engineer</option>
-                                <option value="Data Scientist">Data Scientist</option>
-                                <option value="Software Engineer">Software Engineer</option>
-                                <option value="AI Researcher">AI Researcher</option>
-                            </select> @ <input type="text" id="company" name="company" placeholder='your company'/></h3>
-                        <p>High achiever<br></br>
-                            Natural leader<br></br>
-                            Frequent contributer<br></br>
-                            Efficient worker</p>
+                        <h3>Data Scientist @ Fiserv</h3>
+                        <p><b>Tech Stack: AWS SageMaker, AWS S3, AWS Lambda, Palantir Foundry, FICO Blaze Advisor, JupyterLab, Snowflake, Scikit-Learn, SAS, Excel, Power BI</b><br></br>
+                            ● Led the development of an XGBoost model used to prioritize and automate the decisioning of fraud and credit alerts. Significantly reduced analyst alert queue volume (more than $100,000 worth of work annually)<br></br>
+                            ● Supported the migration from legacy systems (FICO Blaze Advisor) to modern machine learning environments (AWS)<br></br>
+                            ● Created and maintained industry based statistics on merchant processing<br></br>
+                            ● Crafted new rule based alerts to increase alert coverage<br></br>
+                            ● Augmented the standing merchant transaction limit assigning logic to decrease alert volume and increase bad capture rate<br></br>
+                            <br></br>Ongoing
+                            <br></br>Time Spent to Date:&nbsp;
+                            {years} {year_string} and {months} {month_string}
+                            </p>
                     </div>
                 </li>
 

@@ -6,11 +6,12 @@ function AR() {
     return (
         <div id='wholeProjectOddCS'>
             <div id='ProjectOddCS'>
-                <h1 id='ProjectOddCSTitle'>Possible Future Work: An Augmented Reality Application for Smart Glasses</h1>
+                <h1 id='ProjectOddCSTitle'>Check back in the future to see what new projects I work on!</h1>
                 <div id='ProjectOddCSSummary'>
                     <h2 id='ProjectOddCSText'>
-                        Currenty brainstorming possible augmented reality apps for smart glasses. Requires reading up on the best smart glasses to use, how to build apps for them, 
-                        and what is a useful idea worth exploring.
+                        Currently brainstorming possible projects <br></br>
+                        ● Augmented reality apps for smart glasses<br></br>
+                        ● Investment property profitabilty analyzer
                     </h2>
 
                     <br></br>

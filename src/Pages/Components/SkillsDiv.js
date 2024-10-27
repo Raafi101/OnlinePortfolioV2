@@ -26,26 +26,26 @@ function SkillsDiv() {
                                 <i id='Y' class="fas fa-square"></i> <n/>
                                 <i id='Y' class="fas fa-square"></i> <n/>
                                 <i id='Y' class="fas fa-square"></i> <n/>
-                                <i id='N' class="fas fa-square"></i> <n/>
+                                <i id='Y' class="fas fa-square"></i> <n/>
                             </h4>
                         </div>
                     </div>
 
                     <div id='bloc'>
                         <div id='langName' data-aos='fade-right'>
-                            <h2 id='SkillsText'><i class="fas fa-code"></i> C++</h2>
+                            <h2 id='SkillsText'><i class="fas fa-database"></i> SQL</h2>
                         </div>
                         <div id='Rating' data-aos='fade-left'>
                             <h4>
                                 <i id='Y' class="fas fa-square"></i> <n/>
                                 <i id='Y' class="fas fa-square"></i> <n/>
-                                <i id='N' class="fas fa-square"></i> <n/>
-                                <i id='N' class="fas fa-square"></i> <n/>
+                                <i id='Y' class="fas fa-square"></i> <n/>
+                                <i id='Y' class="fas fa-square"></i> <n/>
                                 <i id='N' class="fas fa-square"></i>
                             </h4>
                         </div>
                     </div>
-                    
+
                     <div id='bloc'>
                         <div id='langName' data-aos='fade-right'>
                             <h2 id='SkillsText'><i class="fab fa-js"></i> JavaScript/<i class="fab fa-html5"></i> HTML/<i class="fab fa-css3-alt"></i> CSS</h2>
@@ -60,16 +60,16 @@ function SkillsDiv() {
                             </h4>
                         </div>
                     </div>
-                    
+
                     <div id='bloc'>
                         <div id='langName' data-aos='fade-right'>
-                            <h2 id='SkillsText'><i class="fas fa-database"></i> SQL</h2>
+                            <h2 id='SkillsText'><i class="fas fa-code"></i> C++</h2>
                         </div>
                         <div id='Rating' data-aos='fade-left'>
                             <h4>
                                 <i id='Y' class="fas fa-square"></i> <n/>
                                 <i id='Y' class="fas fa-square"></i> <n/>
-                                <i id='Y' class="fas fa-square"></i> <n/>
+                                <i id='N' class="fas fa-square"></i> <n/>
                                 <i id='N' class="fas fa-square"></i> <n/>
                                 <i id='N' class="fas fa-square"></i>
                             </h4>
@@ -130,16 +130,12 @@ function SkillsDiv() {
                             <h2 id='TechText' data-aos='fade-right'>Tensorflow,</h2> 
                             <h2 id='TechText' data-aos='fade-right'>Anaconda,</h2> 
                             <h2 id='TechText' data-aos='fade-right'>Jupyter,</h2>
-                            <h2 id='TechText' data-aos='fade-right'>NumPy,</h2> 
-                            <h2 id='TechText' data-aos='fade-right'>Matplotlib,</h2> 
                             <h2 id='TechText' data-aos='fade-right'>Pandas,</h2> 
                             <h2 id='TechText' data-aos='fade-right'>Scikit-Learn,</h2> 
+                            <h2 id='TechText' data-aos='fade-right'>Optuna,</h2> 
                             <h2 id='TechText' data-aos='fade-right'>SciPy,</h2>
                             <h2 id='TechText' data-aos='fade-right'>OpenCV,</h2> 
-                            <h2 id='TechText' data-aos='fade-right'>Keras,</h2> 
                             <h2 id='TechText' data-aos='fade-right'>NLTK,</h2> 
-                            <h2 id='TechText' data-aos='fade-right'>Flask,</h2> 
-                            <h2 id='TechText' data-aos='fade-right'>Tkinter,</h2>
                             <h2 id='TechText' data-aos='fade-right'>PyMC3,</h2> 
                             <h2 id='TechText' data-aos='fade-right'>Tableau,</h2> 
                             <h2 id='TechText' data-aos='fade-right'>MySQL,</h2> 
@@ -150,8 +146,19 @@ function SkillsDiv() {
                             <h2 id='TechText' data-aos='fade-right'>React.js,</h2> 
                             <h2 id='TechText' data-aos='fade-right'>Node.js,</h2> 
                             <h2 id='TechText' data-aos='fade-right'>Express.js,</h2> 
-                            <h2 id='TechText' data-aos='fade-right'>GCP AutoML Vison/Tables/BigQuery/Vertex AI/Cloud Storage,</h2> 
-                            <h2 id='TechText' data-aos='fade-right'>AWS EC2/Amplify/RDS/S3,</h2> 
+                            <h2 id='TechText' data-aos='fade-right'>AWS SageMaker,</h2> 
+                            <h2 id='TechText' data-aos='fade-right'>AWS Lambda,</h2> 
+                            <h2 id='TechText' data-aos='fade-right'>AWS EC2,</h2> 
+                            <h2 id='TechText' data-aos='fade-right'>AWS Amplify,</h2> 
+                            <h2 id='TechText' data-aos='fade-right'>AWS RDS,</h2> 
+                            <h2 id='TechText' data-aos='fade-right'>AWS S3,</h2> 
+                            <h2 id='TechText' data-aos='fade-right'>GCP AutoML Vison,</h2>
+                            <h2 id='TechText' data-aos='fade-right'>GCP Tables,</h2>
+                            <h2 id='TechText' data-aos='fade-right'>GCP BigQuery,</h2>
+                            <h2 id='TechText' data-aos='fade-right'>GCP Vertex AI,</h2>
+                            <h2 id='TechText' data-aos='fade-right'>GCP Cloud Storage,</h2>
+                            <h2 id='TechText' data-aos='fade-right'>Snowflake,</h2> 
+                            <h2 id='TechText' data-aos='fade-right'>Palantir Foundry,</h2> 
                             <h2 id='TechText' data-aos='fade-right'>Linux,</h2> 
                             <h2 id='TechText' data-aos='fade-right'>Jira,</h2> 
                             <h2 id='TechText' data-aos='fade-right'>Confluence,</h2> 

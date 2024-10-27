@@ -13,7 +13,7 @@ function AboutDiv() {
             <div id='aboutDiv'>
                 <h1 id='aboutTitle'>Meet Raafi</h1>
                 <div id='aboutSummary'>
-                    <img id='aboutPic' data-aos='fade-right' data-aos-duration='500' src='./Images/washingtonDC.jpg'/>
+                    <img id='aboutPic' data-aos='fade-right' data-aos-duration='500' src='./Images/washington_cropped.jpg'/>
                     <h2 id='aboutText' data-aos='fade-left' data-aos-duration='500'>
                         Raafi's ultimate goal in life is to push the limits of humanity.
                         He is currently working as a Data Scientist at&nbsp;

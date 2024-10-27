@@ -195,16 +195,6 @@
     text-align: center;
   }
 
-  #qualBTNs {
-    display: block;
-    width: 50%;
-    align-items: center;
-    text-align: center;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .button {
     border-radius: 5px;
     background: linear-gradient(90deg, rgb(195, 7, 63), #ff2a55);

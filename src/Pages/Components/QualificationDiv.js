@@ -14,12 +14,19 @@ function QualificationDiv() {
                 <h1 id='qualificationTitle'>Raafi's Qualifications</h1>
                 <div id='qualificationSummary'>
                     <h2 id='qualificationText' data-aos='fade-right' data-aos-delay='200' data-aos-duration='500'>
-                        Raafi graduated with a major GPA of 3.75 and a cumulative GPA of 3.7.
-                        He understands a variety of programming languages such as Python, 
-                        JavaScript, C++, and SQL.
-                        Raafi has experience with many useful Python libraries 
-                        and toolkits like TensorFlow, Scikit-Learn, NumPy, Matplotlib, Pandas, OpenCV, 
-                        NLTK, and more! Raafi can convey ideas in English, Urdu, Hindi, and Russian. 
+                        Raafi is well versed in utilizing his technical knowledge to create effective AI tools. He follows best practices and is able to work within
+                        the constraints of industry regulations, especially when it comes to sensitive data and personally identifiable information (PII). 
+                        He remained HIPAA compliant during his time at WebMD. At Fiserv, he adhered to banking and government regulations
+                        when it comes to the credit card and banking industry. Raafi understands what is required from and what questions might come from model validators.
+                        <br></br><br></br>
+                        Raafi has a Master's in Statistics & Applied Mathematics and a Bachelor's in Mathematics with a minor in Computer Science. He graduated with a GPA of 3.75.
+                        He is highly skilled in Python and SQL, and is very familiar with the most useful and most commonly used python packages such as:
+                         Scikit-Learn, XGBoost, TensorFlow, Optuna, Matplotlib, Pandas, OpenCV, NLTK, and more! 
+                        Amazon Web Services is Raafi's favorite cloud provider. He has extensive work and personal experience with AWS and the tools within it.
+                        His Computer Science knowledge extends into the world of software engineering with his abilty to use 
+                        JavaScript and C++. This website was made using Javascript and React!
+                        <br></br><br></br>
+                        Raafi can convey ideas in English, Urdu, Hindi, and Russian. 
                         He possesses knowledge on computer hardware with hands-on computer building 
                         experience. He is artistic when it comes to music, design, and film making.
                         See his LinkedIn, GitHub, resume, and transcript below.
